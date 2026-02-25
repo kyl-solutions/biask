@@ -1,0 +1,45 @@
+{
+  "id": "1967-six-day-war",
+  "year": 1967,
+  "title": "The Six-Day War",
+  "agreedFacts": [
+    { "text": "In June 1967, Israel fought a war against Egypt, Jordan, and Syria lasting six days", "status": "agreed" },
+    { "text": "Israel captured the Sinai Peninsula, Gaza Strip, West Bank (including East Jerusalem), and Golan Heights", "status": "agreed" },
+    { "text": "Approximately 300,000 Palestinians fled or were expelled from the West Bank during and after the war", "status": "agreed" },
+    { "text": "Israel unified Jerusalem under its control and annexed East Jerusalem", "status": "agreed" },
+    { "text": "UN Security Council Resolution 242 called for Israeli withdrawal from territories occupied in the conflict", "status": "agreed" },
+    { "text": "Whether Israel launched a preemptive strike in legitimate self-defense or a war of territorial expansion", "status": "disputed" }
+  ],
+  "bridgeStatement": "Contributors who disagree about whether 1967 was a defensive miracle or an act of conquest agree that it created the territorial reality — occupation, settlements, and competing claims to Jerusalem — that defines the conflict to this day.",
+  "causalLink": "Both sides agree the dynamics that led to this war were set in motion by",
+  "israeli": {
+    "title": "The Miracle & Its Burden",
+    "body": "In May 1967, Egypt massed troops on Israel's border, expelled UN peacekeepers from Sinai, and blockaded the Straits of Tiran — an act of war under international law. Syria shelled Israeli towns from the Golan Heights. Arab leaders spoke openly of destroying Israel. Facing annihilation, Israel struck first. In six days, the tiny country tripled its territory. The reunification of Jerusalem — Jews praying at the Western Wall for the first time in nineteen years — was a moment of profound national and religious significance. But victory created a dilemma Israel has never resolved: how to be both a democracy and an occupying power governing millions of Palestinians who cannot vote.",
+    "context": {
+      "text": "The 'Three No's' of the Khartoum Resolution (September 1967) — no peace, no recognition, no negotiation — convinced Israelis that even total military victory couldn't produce a peace partner. This framing shaped decades of Israeli policy: if the Arabs won't negotiate, Israel would create 'facts on the ground' through settlements."
+    },
+    "sources": "Michael Oren, 'Six Days of War' (2002); IDF History Department archives; UN Security Council Resolution 242 text and debates",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "6 Palestinian contributors",
+      "reviewCount": 6,
+      "revisions": 35,
+      "lastUpdated": "4 days ago"
+    }
+  },
+  "palestinian": {
+    "title": "The Second Dispossession",
+    "body": "The 1967 war completed what 1948 began. Israel now controlled all of historic Palestine — and the millions of Palestinians living in it. The West Bank, which Jordan had administered for nineteen years, came under military occupation. East Jerusalem was annexed. Three hundred thousand more Palestinians became refugees. For the Palestine Liberation Organization, 1967 proved that Arab states could not liberate Palestine; Palestinians would have to lead their own struggle. The war also exposed a fundamental contradiction in the international order: the UN demanded withdrawal but had no mechanism to enforce it. Resolution 242 became the most cited and least implemented resolution in UN history.",
+    "context": {
+      "text": "The first Israeli settlement in the occupied West Bank — Kfar Etzion — was established just months after the war. Within a decade, a network of settlements would begin reshaping the West Bank's geography. Palestinians saw this as colonization by another name, confirmed by the government's own planning documents describing 'creating facts' to prevent territorial withdrawal."
+    },
+    "sources": "Rashid Khalidi, 'The Hundred Years' War on Palestine' (2020); UNRWA displacement records (1967); Meron Benvenisti, 'Sacred Landscape' (2000); Gershom Gorenberg, 'The Accidental Empire' (2006)",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "7 Israeli contributors",
+      "reviewCount": 7,
+      "revisions": 39,
+      "lastUpdated": "3 days ago"
+    }
+  }
+}

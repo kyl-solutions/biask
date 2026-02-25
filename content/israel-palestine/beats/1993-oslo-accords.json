@@ -1,0 +1,46 @@
+{
+  "id": "1993-oslo-accords",
+  "year": 1993,
+  "title": "The Oslo Accords",
+  "agreedFacts": [
+    { "text": "Secret negotiations between Israeli and PLO representatives took place in Oslo, Norway, beginning in January 1993", "status": "agreed" },
+    { "text": "The Declaration of Principles was signed on the White House lawn on September 13, 1993, by Rabin and Arafat", "status": "agreed" },
+    { "text": "The PLO recognized Israel's right to exist; Israel recognized the PLO as the representative of the Palestinian people", "status": "agreed" },
+    { "text": "The accords established the Palestinian Authority with limited self-governance in parts of the West Bank and Gaza", "status": "agreed" },
+    { "text": "Israeli settlement construction continued and accelerated during the Oslo period", "status": "agreed" },
+    { "text": "Israeli PM Yitzhak Rabin was assassinated by an Israeli extremist on November 4, 1995", "status": "agreed" },
+    { "text": "Whether Oslo was a genuine path to Palestinian statehood or a framework that entrenched occupation", "status": "disputed" }
+  ],
+  "bridgeStatement": "Contributors who disagree about whether Oslo was a breakthrough or a trap agree that Rabin's assassination was a turning point that altered the trajectory of the entire process.",
+  "causalLink": "Both sides agree the Oslo framework was shaped by",
+  "israeli": {
+    "title": "The Handshake That Changed Everything",
+    "body": "Oslo was a seismic shift in Israeli politics. Yitzhak Rabin — a military hero, a general who conquered the West Bank in 1967 — stood on the White House lawn and shook Yasser Arafat's hand. For the Israeli peace camp, this was vindication: security through negotiation, not just force. The accords envisioned a phased process — confidence-building steps leading to a final status agreement on borders, Jerusalem, refugees, and security. But Oslo was fragile from the start. Hamas launched suicide bombings designed to derail the process. Israeli settlers viewed it as betrayal. Rabin's assassination by a Jewish extremist in 1995 killed not just a leader but the political will that had made Oslo possible.",
+    "context": {
+      "text": "Between 1993 and 2000, Hamas and Islamic Jihad carried out a series of devastating suicide bombings inside Israel. Each attack eroded public support for the peace process. Israeli leaders faced an impossible choice: continue negotiations while burying bombing victims, or halt the process and vindicate the extremists on both sides."
+    },
+    "sources": "Shimon Peres, 'The New Middle East' (1993); Rabin's Knesset speech on Oslo ratification; Israel Security Agency annual reports (1993-2000)",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "5 Palestinian contributors",
+      "reviewCount": 5,
+      "revisions": 31,
+      "lastUpdated": "4 days ago"
+    }
+  },
+  "palestinian": {
+    "title": "The Peace That Built Settlements",
+    "body": "Oslo asked Palestinians to recognize the state that occupied them while deferring every critical issue — borders, Jerusalem, refugees, settlements — to 'final status' talks that never concluded. In the meantime, the number of Israeli settlers in the West Bank doubled from approximately 110,000 in 1993 to over 200,000 by 2000. The Palestinian Authority became an administrative layer that managed the occupation on Israel's behalf, responsible for Palestinian daily life but controlling neither borders, water, nor movement. The international community treated Oslo as peace achieved, reducing pressure on Israel while settlements ate into the land Palestinians were told would become their state. For many Palestinians, Oslo didn't fail — it worked exactly as designed: buying time for facts on the ground.",
+    "context": {
+      "text": "Edward Said called Oslo a 'Palestinian Versailles' from the outset. The power asymmetry was stark: Israel negotiated from strength while the PLO, expelled from Beirut and weakened by backing Saddam Hussein in the Gulf War, had little leverage. The 'interim' arrangements that were supposed to last five years became permanent features of a deepening occupation."
+    },
+    "sources": "Edward Said, 'The End of the Peace Process' (2000); Foundation for Middle East Peace settlement data; B'Tselem annual reports (1993-2000); World Bank Palestinian economic reports",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "8 Israeli contributors",
+      "reviewCount": 8,
+      "revisions": 38,
+      "lastUpdated": "3 days ago"
+    }
+  }
+}

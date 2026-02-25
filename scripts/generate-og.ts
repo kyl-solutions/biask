@@ -1,0 +1,100 @@
+/**
+ * Generate OG image for biask share surface.
+ * Run: npx tsx scripts/generate-og.ts
+ *
+ * Creates a 1200x630 SVG that serves as the OG image.
+ * For production, convert to PNG via sharp or similar.
+ */
+
+import { writeFileSync } from "fs";
+import { join } from "path";
+
+const WIDTH = 1200;
+const HEIGHT = 630;
+
+const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${WIDTH}" height="${HEIGHT}" viewBox="0 0 ${WIDTH} ${HEIGHT}">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&amp;family=Inter:wght@400;600;700&amp;display=swap');
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="${WIDTH}" height="${HEIGHT}" fill="#F5F5F5"/>
+
+  <!-- Israeli side strip -->
+  <rect x="0" y="0" width="400" height="${HEIGHT}" fill="#E8EEF5"/>
+
+  <!-- Palestinian side strip -->
+  <rect x="800" y="0" width="400" height="${HEIGHT}" fill="#F5EBE8"/>
+
+  <!-- Center white panel -->
+  <rect x="350" y="60" width="500" height="510" rx="16" fill="white" filter="drop-shadow(0 4px 12px rgba(0,0,0,0.08))"/>
+
+  <!-- Wordmark -->
+  <text x="600" y="140" text-anchor="middle" font-size="48">
+    <tspan font-family="Inter" font-weight="700" fill="#000">bi</tspan><tspan font-family="Instrument Serif" font-style="italic" fill="#000">ask</tspan>
+  </text>
+
+  <!-- Title -->
+  <text x="600" y="220" text-anchor="middle" font-family="Instrument Serif" font-style="italic" font-size="42" fill="#000">
+    Israel / Palestine
+  </text>
+
+  <!-- Divider -->
+  <line x1="450" y1="250" x2="750" y2="250" stroke="#E0E0E0" stroke-width="1"/>
+
+  <!-- Description -->
+  <text x="600" y="290" text-anchor="middle" font-family="Inter" font-size="16" fill="#666">
+    Contributors who disagree about the conflict
+  </text>
+  <text x="600" y="315" text-anchor="middle" font-family="Inter" font-size="16" fill="#666">
+    agree on what actually happened.
+  </text>
+
+  <!-- Agreed label -->
+  <text x="600" y="370" text-anchor="middle" font-family="Inter" font-weight="700" font-size="11" fill="#16A34A" letter-spacing="3">
+    AGREED ACROSS THE DIVIDE
+  </text>
+
+  <!-- Stats -->
+  <text x="600" y="420" text-anchor="middle" font-family="Inter" font-size="14" fill="#666">
+    <tspan font-weight="600" fill="#2563EB">247 Israeli</tspan>
+    <tspan fill="#AAA"> · </tspan>
+    <tspan font-weight="600" fill="#B45309">231 Palestinian</tspan>
+    <tspan fill="#666"> contributors</tspan>
+  </text>
+
+  <!-- Timeline dots -->
+  <line x1="420" y1="480" x2="780" y2="480" stroke="#E0E0E0" stroke-width="2"/>
+  <circle cx="420" cy="480" r="4" fill="#AAA"/>
+  <circle cx="480" cy="480" r="4" fill="#AAA"/>
+  <circle cx="540" cy="480" r="4" fill="#AAA"/>
+  <circle cx="600" cy="480" r="4" fill="#AAA"/>
+  <circle cx="660" cy="480" r="4" fill="#AAA"/>
+  <circle cx="720" cy="480" r="4" fill="#AAA"/>
+  <circle cx="780" cy="480" r="6" fill="#000"/>
+
+  <!-- Timeline labels -->
+  <text x="420" y="505" text-anchor="middle" font-family="Inter" font-size="10" fill="#AAA">1917</text>
+  <text x="780" y="505" text-anchor="middle" font-family="Inter" font-weight="600" font-size="10" fill="#000">Now</text>
+
+  <!-- Side labels -->
+  <text x="200" y="300" text-anchor="middle" font-family="Inter" font-weight="700" font-size="11" fill="#2563EB" letter-spacing="2">
+    ISRAELI
+  </text>
+  <text x="200" y="318" text-anchor="middle" font-family="Inter" font-weight="700" font-size="11" fill="#2563EB" letter-spacing="2">
+    NARRATIVE
+  </text>
+
+  <text x="1000" y="300" text-anchor="middle" font-family="Inter" font-weight="700" font-size="11" fill="#B45309" letter-spacing="2">
+    PALESTINIAN
+  </text>
+  <text x="1000" y="318" text-anchor="middle" font-family="Inter" font-weight="700" font-size="11" fill="#B45309" letter-spacing="2">
+    NARRATIVE
+  </text>
+</svg>`;
+
+const outPath = join(__dirname, "..", "public", "og.svg");
+writeFileSync(outPath, svg);
+console.log(`✅ OG image written to ${outPath}`);

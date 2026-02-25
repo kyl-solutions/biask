@@ -1,0 +1,44 @@
+{
+  "id": "2005-gaza-disengagement",
+  "year": 2005,
+  "title": "Gaza Disengagement",
+  "agreedFacts": [
+    { "text": "In August 2005, Israel unilaterally withdrew all military forces and approximately 8,500 settlers from the Gaza Strip", "status": "agreed" },
+    { "text": "The withdrawal was ordered by Prime Minister Ariel Sharon and implemented over strong opposition from within his own Likud party", "status": "agreed" },
+    { "text": "Hamas won the Palestinian Legislative Council elections in January 2006", "status": "agreed" },
+    { "text": "Israel maintained control of Gaza's airspace, coastline, and most border crossings after the withdrawal", "status": "agreed" },
+    { "text": "Whether the disengagement constituted a genuine end to occupation of Gaza", "status": "disputed" }
+  ],
+  "bridgeStatement": "Contributors who disagree about whether Gaza was 'freed' or 'caged' agree that the disengagement fundamentally changed the political dynamics without resolving the underlying conflict.",
+  "causalLink": "Both sides agree this period's instability traces back to",
+  "israeli": {
+    "title": "A Painful Concession",
+    "body": "Israel uprooted entire communities — synagogues bulldozed, graves relocated, families who had lived in Gaza for decades dragged from their homes by Israeli soldiers. For supporters, this was a bold peace gesture: Israel left Gaza completely, giving Palestinians full self-governance. When Hamas won elections and rockets continued to fly into Israeli towns, many Israelis concluded that territorial withdrawal without a negotiated peace simply created a launching pad for attacks. The disengagement became a cautionary tale cited against further withdrawals from the West Bank.",
+    "context": {
+      "text": "Sharon, the architect of the settlement movement, reversed course dramatically. His own party revolted, and he eventually split to form the centrist Kadima party. The political trauma of evacuating settlers hardened Israeli skepticism about future land-for-peace deals."
+    },
+    "sources": "Knesset Records; Israel Democracy Institute polling (2005-2006); Sharon's Knesset address, February 2005",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "4 Palestinian contributors",
+      "reviewCount": 4,
+      "revisions": 22,
+      "lastUpdated": "5 days ago"
+    }
+  },
+  "palestinian": {
+    "title": "A Repackaged Prison",
+    "body": "Palestinians saw the disengagement not as liberation but as a strategic repackaging of control. Israel withdrew settlers but sealed Gaza's borders, controlled its airspace, coastline, and electromagnetic spectrum. The 'withdrawal' transferred Gaza from an occupied territory with settlers to what the UN, Amnesty International, and Human Rights Watch would later call an open-air prison under blockade. The subsequent Hamas election victory reflected Palestinian frustration with Fatah's corruption and the failure of the Oslo process — but Israel and the West responded with sanctions and siege, punishing the population for their democratic choice.",
+    "context": {
+      "text": "Sharon's senior advisor Dov Weisglass described the disengagement as 'formaldehyde' that would freeze the peace process. This statement, widely reported, reinforced Palestinian belief that withdrawal was a tactical move to consolidate control of the West Bank rather than a step toward statehood."
+    },
+    "sources": "Dov Weisglass interview, Haaretz (October 2004); UN OCHA closure reports (2005-2007); Carter Center election monitoring report (2006)",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "6 Israeli contributors",
+      "reviewCount": 6,
+      "revisions": 28,
+      "lastUpdated": "4 days ago"
+    }
+  }
+}

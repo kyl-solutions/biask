@@ -1,0 +1,18 @@
+{
+  "id": "israel-palestine",
+  "title": "Israel / Palestine",
+  "subtitle": "Understanding Conflict Through Both Sides",
+  "dateRange": "1917 — Present",
+  "description": "A dual narrative exploring the same events through Israeli and Palestinian perspectives. Not who is right — but why each side believes what it does.",
+  "israeliContributors": 247,
+  "palestinianContributors": 231,
+  "independentReviewers": 12,
+  "sideA": {
+    "label": "Israeli",
+    "adjective": "Israeli"
+  },
+  "sideB": {
+    "label": "Palestinian",
+    "adjective": "Palestinian"
+  }
+}

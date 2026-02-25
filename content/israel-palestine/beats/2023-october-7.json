@@ -1,0 +1,44 @@
+{
+  "id": "2023-october-7",
+  "year": 2023,
+  "title": "October 7 & Its Aftermath",
+  "agreedFacts": [
+    { "text": "On October 7, 2023, Hamas launched a large-scale assault from Gaza into southern Israel", "status": "agreed" },
+    { "text": "Approximately 1,200 Israelis and foreign nationals were killed, and roughly 250 were taken hostage", "status": "agreed" },
+    { "text": "Israel launched a major military campaign in Gaza in response", "status": "agreed" },
+    { "text": "The Gaza Health Ministry reported tens of thousands of Palestinian casualties in the ensuing war", "status": "agreed" },
+    { "text": "Whether Israel's military response constitutes proportionate self-defense or collective punishment", "status": "disputed" }
+  ],
+  "bridgeStatement": "Contributors who disagree about whether October 7 was resistance or terrorism agree that the attack represented an unprecedented escalation that shattered assumptions on all sides.",
+  "causalLink": "Both sides agree this escalation is rooted in",
+  "israeli": {
+    "title": "The Darkest Day",
+    "body": "October 7 was the deadliest day for Jewish people since the Holocaust. Hamas militants crossed the border at dawn, attacking kibbutzim, a music festival, and military bases. The scale and nature of the violence — families murdered in their homes, hostages dragged into tunnels — shattered Israel's sense of security. The national trauma was existential: the state built to protect Jews had failed at its most fundamental promise.",
+    "context": {
+      "text": "Israel had pursued a policy of 'managing' rather than resolving the Gaza situation. Economic incentives, work permits, and Qatari cash transfers were believed to maintain a fragile stability. October 7 proved this approach catastrophically wrong."
+    },
+    "sources": "Israeli State Comptroller reports; Haaretz investigative series (2024); testimonies compiled by Zaka and NATAL",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "5 Palestinian contributors",
+      "reviewCount": 5,
+      "revisions": 34,
+      "lastUpdated": "2 days ago"
+    }
+  },
+  "palestinian": {
+    "title": "The Breaking Point",
+    "body": "For Palestinians, October 7 did not emerge from a vacuum. Seventeen years of blockade had turned Gaza into what the UN called an 'open-air prison.' Two million people lived under severe restrictions on movement, trade, and basic necessities. The attack was the eruption of a pressure that had been building for decades — though the methods and targeting of civilians drew condemnation even from Palestinian allies. The Israeli military response devastated Gaza's infrastructure, displaced most of its population, and killed tens of thousands.",
+    "context": {
+      "text": "Gaza had experienced four major Israeli military operations since 2008 (Cast Lead, Pillar of Defense, Protective Edge, Guardian of the Walls). Each cycle left more destruction and fewer prospects for the 2.2 million residents, most of whom are refugees or descendants of refugees from 1948."
+    },
+    "sources": "UN OCHA situation reports; Gaza Health Ministry data; UNRWA displacement figures; Human Rights Watch reports (2024)",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "7 Israeli contributors",
+      "reviewCount": 7,
+      "revisions": 41,
+      "lastUpdated": "1 day ago"
+    }
+  }
+}

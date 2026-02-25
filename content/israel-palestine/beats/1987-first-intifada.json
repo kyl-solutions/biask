@@ -1,0 +1,45 @@
+{
+  "id": "1987-first-intifada",
+  "year": 1987,
+  "title": "The First Intifada",
+  "agreedFacts": [
+    { "text": "A popular Palestinian uprising began in December 1987 in the Jabalia refugee camp in Gaza and spread across the occupied territories", "status": "agreed" },
+    { "text": "The uprising was largely characterized by strikes, boycotts, stone-throwing, and civil disobedience", "status": "agreed" },
+    { "text": "Israel responded with a policy of 'force, might, and beatings' under Defense Minister Yitzhak Rabin", "status": "agreed" },
+    { "text": "Over 1,000 Palestinians and approximately 160 Israelis were killed during the intifada (1987-1993)", "status": "agreed" },
+    { "text": "Hamas was founded in 1987 during the early days of the intifada", "status": "agreed" },
+    { "text": "Whether the intifada was a spontaneous popular uprising or an organized campaign", "status": "disputed" }
+  ],
+  "bridgeStatement": "Contributors who disagree about whether the intifada was terrorism or resistance agree that it was the moment the Palestinian population under occupation became impossible for the world to ignore.",
+  "causalLink": "Both sides agree this uprising was the culmination of",
+  "israeli": {
+    "title": "The Shock of the Stones",
+    "body": "For twenty years after 1967, Israel governed the West Bank and Gaza with relative quiet. The intifada shattered that stability. Images of Palestinian children throwing stones at Israeli soldiers upended Israel's self-image and its international standing. The military, built to fight armies, was now policing a civilian population. Rabin's order to 'break their bones' reflected the frustration of a security establishment confronting a problem force couldn't solve. The intifada divided Israeli society: some saw it as proof that occupation was unsustainable; others saw it as evidence that Palestinians only understood strength. Both camps agreed on one thing — the status quo had broken.",
+    "context": {
+      "text": "The intifada produced a generation of Israeli soldiers who served as enforcers in Palestinian towns rather than defenders on national borders. Many later became leaders of the Israeli peace movement, while others were radicalized in the opposite direction. The internal debate over what the army was becoming would shape Israeli politics for decades."
+    },
+    "sources": "Benny Morris, 'Righteous Victims' (1999); B'Tselem founding reports (1989); IDF internal assessments declassified 2010",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "5 Palestinian contributors",
+      "reviewCount": 5,
+      "revisions": 26,
+      "lastUpdated": "6 days ago"
+    }
+  },
+  "palestinian": {
+    "title": "The Awakening",
+    "body": "Twenty years of military occupation — land confiscation, settlement expansion, arbitrary detention, daily humiliation at checkpoints — finally erupted. The intifada was not planned by any faction; it began spontaneously when an Israeli truck killed four Palestinian workers in Gaza. What made it transformative was its character: this was a popular uprising, not an armed guerrilla campaign. Women, children, shopkeepers, and students all participated through strikes, tax refusal, and stone-throwing. The Unified National Leadership of the Uprising issued leaflets organizing nonviolent resistance. Israel's iron-fist response — over 1,000 killed, tens of thousands detained, houses demolished, curfews imposed on entire cities — revealed the violence inherent in the occupation to a global audience.",
+    "context": {
+      "text": "The intifada also produced Hamas, born from the Muslim Brotherhood's Gaza branch. While the PLO-aligned leadership pursued a political track that would lead to Oslo, Hamas offered a religious-nationalist alternative that rejected negotiation. This split — negotiate or resist — would define Palestinian politics for the next four decades."
+    },
+    "sources": "Rashid Khalidi, 'The Iron Cage' (2006); UN General Assembly resolutions on the intifada; UNRWA situation reports (1987-1993); Human Rights Watch, 'The Israeli Army and the Intifada' (1990)",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "6 Israeli contributors",
+      "reviewCount": 6,
+      "revisions": 29,
+      "lastUpdated": "5 days ago"
+    }
+  }
+}

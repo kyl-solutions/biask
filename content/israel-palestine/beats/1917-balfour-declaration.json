@@ -1,0 +1,46 @@
+{
+  "id": "1917-balfour-declaration",
+  "year": 1917,
+  "title": "The Balfour Declaration & British Mandate",
+  "agreedFacts": [
+    { "text": "On November 2, 1917, British Foreign Secretary Arthur Balfour issued a letter supporting the establishment of a 'national home for the Jewish people' in Palestine", "status": "agreed" },
+    { "text": "The declaration included the caveat that 'nothing shall be done which may prejudice the civil and religious rights of existing non-Jewish communities in Palestine'", "status": "agreed" },
+    { "text": "At the time, the Jewish population of Palestine was approximately 11% of the total", "status": "agreed" },
+    { "text": "The British Mandate for Palestine (1920-1948) governed the territory under a League of Nations mandate", "status": "agreed" },
+    { "text": "Jewish immigration to Palestine increased significantly during the Mandate period, especially in the 1930s as Jews fled European persecution", "status": "agreed" },
+    { "text": "Arab revolts against British rule and Jewish immigration occurred in 1936-1939", "status": "agreed" },
+    { "text": "Whether the Balfour Declaration was a legitimate act of national self-determination or an imperial imposition on an existing population", "status": "disputed" }
+  ],
+  "bridgeStatement": "Contributors who disagree about whether the Balfour Declaration was a promise fulfilled or a promise betrayed agree that a European imperial power made commitments to two peoples over the same land — and that the resulting contradiction was never resolved.",
+  "causalLink": "",
+  "israeli": {
+    "title": "A People Returns Home",
+    "body": "The Balfour Declaration recognized what Zionist thinkers had articulated for decades: the Jewish people, persecuted throughout Europe, needed a national home in their ancestral land. This was not colonialism — Jews were not agents of the British Empire but refugees from European hatred. The connection to the land was not invented by Balfour; it was three thousand years old, maintained through prayer, text, and continuous (if small) Jewish presence. The Mandate period saw the building of a society from scratch: kibbutzim, the Hebrew University, the Haganah self-defense force. When the Holocaust destroyed European Jewry, the case for Jewish sovereignty became unanswerable. Where else would survivors go? Who else would protect them?",
+    "context": {
+      "text": "Zionism emerged in the context of rising European nationalism and antisemitism. Theodor Herzl, witnessing the Dreyfus Affair in France, concluded that Jewish assimilation would never protect Jews from persecution. The movement predated the Balfour Declaration by decades — the First Zionist Congress was held in 1897. Balfour didn't create Jewish nationalism; it recognized a movement already in motion."
+    },
+    "sources": "Theodor Herzl, 'The Jewish State' (1896); Chaim Weizmann's correspondence with Balfour; British Mandate census records; Tom Segev, 'One Palestine, Complete' (2000)",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "7 Palestinian contributors",
+      "reviewCount": 7,
+      "revisions": 44,
+      "lastUpdated": "2 days ago"
+    }
+  },
+  "palestinian": {
+    "title": "A Land Promised by Strangers",
+    "body": "In 1917, a British lord promised a European political movement a homeland in a territory where that movement's members constituted barely one-tenth of the population — without consulting the people who already lived there. The Balfour Declaration referred to the indigenous Arab majority only as 'existing non-Jewish communities,' denying them national identity in their own land. This was colonialism in its purest form: one people's national aspirations advanced at the expense of another's, authorized by an empire that controlled neither people's destiny by right. During the Mandate, Palestinian society — its farmers, merchants, intellectuals, and leaders — was progressively displaced by a settler population backed by imperial power. Palestinian resistance was met with British military force. By the time the British left, the demographic and political balance had been irreversibly altered.",
+    "context": {
+      "text": "Palestinians note that Britain simultaneously made promises to the Arabs (the Hussein-McMahon Correspondence, 1915-16) and to the French (Sykes-Picot Agreement, 1916) that contradicted the Balfour Declaration. The pattern of European powers carving up the Middle East to suit their interests — while claiming to support self-determination — is the foundation of Palestinian distrust of Western mediation."
+    },
+    "sources": "Rashid Khalidi, 'The Hundred Years' War on Palestine' (2020); A.W. Kayyali, 'Palestine: A Modern History' (1978); British Mandate administrative records; Walid Khalidi, 'Before Their Diaspora' (1984)",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "8 Israeli contributors",
+      "reviewCount": 8,
+      "revisions": 41,
+      "lastUpdated": "2 days ago"
+    }
+  }
+}

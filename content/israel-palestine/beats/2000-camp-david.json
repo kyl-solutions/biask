@@ -1,0 +1,45 @@
+{
+  "id": "2000-camp-david",
+  "year": 2000,
+  "title": "Camp David & the Second Intifada",
+  "agreedFacts": [
+    { "text": "The Camp David Summit in July 2000 between Israeli PM Ehud Barak and Palestinian leader Yasser Arafat, mediated by President Clinton, ended without an agreement", "status": "agreed" },
+    { "text": "Ariel Sharon visited the Temple Mount / Haram al-Sharif compound on September 28, 2000", "status": "agreed" },
+    { "text": "A Palestinian uprising (Second Intifada) erupted in late September 2000 and lasted until approximately 2005", "status": "agreed" },
+    { "text": "Over 1,000 Israelis and approximately 3,000 Palestinians were killed during the Second Intifada", "status": "agreed" },
+    { "text": "Whether Arafat rejected a 'generous offer' or was presented with an unacceptable proposal", "status": "disputed" },
+    { "text": "Whether Sharon's visit caused the intifada or was a pretext for a pre-planned uprising", "status": "disputed" }
+  ],
+  "bridgeStatement": "Contributors who disagree about who bears responsibility for the collapse of negotiations agree that Camp David represented the closest the two sides came to a comprehensive deal — and its failure radicalized both populations.",
+  "causalLink": "Both sides agree the collapse of this peace effort is tied to",
+  "israeli": {
+    "title": "The Offer That Was Refused",
+    "body": "Israel came to Camp David prepared to make historic concessions: withdrawal from over 90% of the West Bank, a Palestinian capital in East Jerusalem, shared arrangements for holy sites. Barak took enormous political risk. When Arafat walked away without a counter-offer, Israelis across the political spectrum concluded there was no Palestinian partner for peace. The Second Intifada, with its suicide bombings targeting buses, cafes, and Passover seders, shattered the Israeli peace camp. The left collapsed electorally. The lesson Israelis drew: when we offer peace, we get bombs.",
+    "context": {
+      "text": "The phrase 'no partner for peace' entered Israeli political vocabulary after Camp David and became the dominant framing for the next two decades. Barak's willingness to divide Jerusalem — taboo in Israeli politics — and Arafat's perceived rejection created a narrative that Israeli concessions are met with violence, not reciprocation."
+    },
+    "sources": "Dennis Ross, 'The Missing Peace' (2004); Shlomo Ben-Ami, 'Scars of War, Wounds of Peace' (2006); Israel Ministry of Foreign Affairs Camp David archive",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "6 Palestinian contributors",
+      "reviewCount": 6,
+      "revisions": 37,
+      "lastUpdated": "3 days ago"
+    }
+  },
+  "palestinian": {
+    "title": "The Offer That Wasn't",
+    "body": "The 'generous offer' narrative distorts what actually happened at Camp David. The proposal kept major settlement blocs, offered non-contiguous Palestinian territory bisected by Israeli-controlled roads, gave Israel sovereignty over Palestinian airspace and borders, and proposed a capital in Abu Dis — a village outside Jerusalem's walls, not Jerusalem itself. Arafat asked for more time and a counter-proposal framework; he did not simply 'walk away.' The Second Intifada erupted from thirty-three years of accumulated occupation, settlement expansion during the 'peace process,' and the deliberate provocation of Sharon's armed visit to the Haram al-Sharif. Blaming Palestinians for the failure let Israel escape accountability for never halting settlements even during negotiations.",
+    "context": {
+      "text": "Palestinian negotiator Robert Malley, who was in the room, published an account contradicting the 'generous offer' narrative. He noted that no formal written offer was made, that maps were never finalized, and that both sides bore responsibility for failure. His account was largely ignored in mainstream Israeli and American media."
+    },
+    "sources": "Robert Malley & Hussein Agha, 'Camp David: The Tragedy of Errors,' New York Review of Books (2001); Clayton Swisher, 'The Truth About Camp David' (2004); Palestinian negotiating team papers (Al Jazeera Palestine Papers, 2011)",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "7 Israeli contributors",
+      "reviewCount": 7,
+      "revisions": 42,
+      "lastUpdated": "2 days ago"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  /* Israeli side */
+  --color-israeli-bg: #E8EEF5;
+  --color-israeli-accent: #2563EB;
+  --color-israeli-prov: #F0F4F8;
+
+  /* Palestinian side */
+  --color-palestinian-bg: #F5EBE8;
+  --color-palestinian-accent: #B45309;
+  --color-palestinian-prov: #FAF5F2;
+
+  /* Neutrals */
+  --color-page-bg: #F5F5F5;
+  --color-surface: #FFFFFF;
+  --color-header-bg: #000000;
+  --color-border-light: #E0E0E0;
+
+  /* Text */
+  --color-text-primary: #000000;
+  --color-text-secondary: #666666;
+  --color-text-muted: #AAAAAA;
+
+  /* Counterfactual */
+  --color-cf-bg: #FFFBEB;
+  --color-cf-accent: #D97706;
+
+  /* Consensus */
+  --color-agreed: #16A34A;
+  --color-disputed: #F59E0B;
+
+  /* Fonts */
+  --font-display: "Instrument Serif", serif;
+  --font-body: "Inter", sans-serif;
+}
+
+/* Scrollbar styling for the scrubber */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

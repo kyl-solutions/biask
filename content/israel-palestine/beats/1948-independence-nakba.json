@@ -1,0 +1,46 @@
+{
+  "id": "1948-independence-nakba",
+  "year": 1948,
+  "title": "Independence / Nakba",
+  "agreedFacts": [
+    { "text": "The State of Israel declared independence on May 14, 1948, following the end of the British Mandate", "status": "agreed" },
+    { "text": "Five Arab armies invaded the former Mandate territory the following day", "status": "agreed" },
+    { "text": "Approximately 700,000 Palestinians fled or were expelled from their homes during the 1947-1949 war", "status": "agreed" },
+    { "text": "Massacres were committed by forces on multiple sides during the conflict", "status": "agreed" },
+    { "text": "The war ended with Israel controlling more territory than the UN partition plan allotted to the Jewish state", "status": "agreed" },
+    { "text": "Palestinian refugees were not permitted to return to their homes after the war", "status": "agreed" },
+    { "text": "Whether the Palestinian exodus was primarily caused by voluntary flight, military expulsion, or a deliberate policy of ethnic cleansing", "status": "disputed" }
+  ],
+  "bridgeStatement": "Contributors who disagree about whether 1948 was a war of liberation or a catastrophe agree that it produced a refugee population whose unresolved displacement remains the emotional core of the conflict.",
+  "causalLink": "Both sides agree the events of 1948 were the direct consequence of",
+  "israeli": {
+    "title": "A State Is Born",
+    "body": "Three years after the Holocaust, the Jewish people declared sovereignty in their ancestral homeland. The joy lasted hours. Five Arab armies invaded with the declared aim of destroying the newborn state. Israel fought a desperate war of survival with improvised weapons, Holocaust survivors pressed into service, and no guarantee of victory. One percent of the Jewish population — 6,000 people — died in the fighting. The state that emerged was not the product of colonial expansion but of a people with nowhere else to go, defending their right to exist against enemies who rejected the UN partition plan. The tragedy of Palestinian displacement is real, but it occurred in the context of a war that Israel did not start and could not afford to lose.",
+    "context": {
+      "text": "The Israeli narrative emphasizes that the Jewish community accepted the 1947 UN Partition Plan while Arab leadership rejected it. The war, in this framing, was imposed on Israel. Palestinian displacement, while regrettable, was a consequence of a war launched by the Arab side — not a premeditated Israeli policy. Israeli 'New Historians' have since complicated this narrative, but the founding story of existential survival remains central to Israeli identity."
+    },
+    "sources": "Benny Morris, '1948' (2008); Anita Shapira, 'Israel: A History' (2012); IDF archives; David Ben-Gurion's diary entries (1947-1949)",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "8 Palestinian contributors",
+      "reviewCount": 8,
+      "revisions": 47,
+      "lastUpdated": "1 day ago"
+    }
+  },
+  "palestinian": {
+    "title": "The Catastrophe",
+    "body": "Palestinians call 1948 the Nakba — the Catastrophe. Over 700,000 people were driven from their homes. More than 400 Palestinian villages were destroyed or depopulated. Massacres like Deir Yassin terrorized communities into flight. This was not collateral damage; Israeli military plans — notably Plan Dalet — included provisions for clearing Palestinian populations from strategic areas. The refugees were never allowed to return, in violation of UN General Assembly Resolution 194. Their homes were given to Jewish immigrants. Their villages were demolished or renamed. An entire society was erased to make room for a new one. The Nakba is not history for Palestinians — it is a living condition. The refugees and their descendants, now numbering over five million, remain stateless.",
+    "context": {
+      "text": "Israeli historian Ilan Pappé documented what he called 'the ethnic cleansing of Palestine,' drawing on declassified Israeli military archives. While his conclusions remain contested, even mainstream Israeli historian Benny Morris acknowledged that expulsions occurred, though he framed them as militarily necessary. The Palestinian experience of 1948 — dispossession, exile, erasure — is the foundational trauma that every subsequent event builds upon."
+    },
+    "sources": "Walid Khalidi, 'All That Remains' (1992); Ilan Pappé, 'The Ethnic Cleansing of Palestine' (2006); Benny Morris, 'The Birth of the Palestinian Refugee Problem Revisited' (2004); UNRWA registration records",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "9 Israeli contributors",
+      "reviewCount": 9,
+      "revisions": 53,
+      "lastUpdated": "1 day ago"
+    }
+  }
+}
