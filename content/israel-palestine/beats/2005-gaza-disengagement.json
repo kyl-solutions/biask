@@ -11,7 +11,7 @@
   ],
   "bridgeStatement": "Contributors who disagree about whether Gaza was 'freed' or 'caged' agree that the disengagement fundamentally changed the political dynamics without resolving the underlying conflict.",
   "causalLink": "Both sides agree this period's instability traces back to",
-  "israeli": {
+  "sideA": {
     "title": "A Painful Concession",
     "body": "Israel uprooted entire communities — synagogues bulldozed, graves relocated, families who had lived in Gaza for decades dragged from their homes by Israeli soldiers. For supporters, this was a bold peace gesture: Israel left Gaza completely, giving Palestinians full self-governance. When Hamas won elections and rockets continued to fly into Israeli towns, many Israelis concluded that territorial withdrawal without a negotiated peace simply created a launching pad for attacks. The disengagement became a cautionary tale cited against further withdrawals from the West Bank.",
     "context": {
@@ -26,7 +26,7 @@
       "lastUpdated": "5 days ago"
     }
   },
-  "palestinian": {
+  "sideB": {
     "title": "A Repackaged Prison",
     "body": "Palestinians saw the disengagement not as liberation but as a strategic repackaging of control. Israel withdrew settlers but sealed Gaza's borders, controlled its airspace, coastline, and electromagnetic spectrum. The 'withdrawal' transferred Gaza from an occupied territory with settlers to what the UN, Amnesty International, and Human Rights Watch would later call an open-air prison under blockade. The subsequent Hamas election victory reflected Palestinian frustration with Fatah's corruption and the failure of the Oslo process — but Israel and the West responded with sanctions and siege, punishing the population for their democratic choice.",
     "context": {

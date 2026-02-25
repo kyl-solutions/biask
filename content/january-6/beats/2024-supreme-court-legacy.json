@@ -1,0 +1,44 @@
+{
+  "id": "2024-supreme-court-legacy",
+  "year": 2024,
+  "title": "The Supreme Court & Electoral Legacy",
+  "agreedFacts": [
+    { "text": "In Trump v. Anderson (2024), the Supreme Court unanimously ruled that states cannot disqualify federal candidates under Section 3 of the 14th Amendment without congressional legislation", "status": "agreed" },
+    { "text": "Over 1,200 individuals were charged in connection with January 6, with sentences ranging from probation to 22 years in prison", "status": "agreed" },
+    { "text": "Donald Trump was indicted on federal charges related to efforts to overturn the 2020 election, then won the 2024 presidential election", "status": "agreed" },
+    { "text": "The Justice Department's January 6 prosecutions represented the largest criminal investigation in American history", "status": "agreed" },
+    { "text": "Whether the legal proceedings represented accountability or political persecution", "status": "disputed" }
+  ],
+  "bridgeStatement": "Contributors who disagree about whether January 6 defendants are political prisoners or convicted criminals agree that the legal aftermath exposed fundamental tensions in how America defines political violence, legitimate protest, and the limits of presidential power.",
+  "causalLink": "Both sides agree this legal reckoning was shaped by",
+  "sideA": {
+    "title": "Accountability at Last",
+    "body": "The legal system did what it was designed to do — slowly, imperfectly, but unmistakably. Over 1,200 people were charged. Seditious conspiracy convictions were handed down against Oath Keepers and Proud Boys leaders. The federal indictment of a former president for attempting to overturn an election was unprecedented but constitutionally necessary. That Trump won the 2024 election does not vindicate January 6 — it demonstrates the urgency of institutional guardrails. The courts, the prosecutors, and the jury system functioned. The question is whether the democratic norms these proceedings were meant to defend can survive the political environment they revealed.",
+    "context": {
+      "text": "The Supreme Court's unanimous decision in Trump v. Anderson — ruling that states cannot unilaterally disqualify federal candidates — was seen by legal scholars as the Court avoiding a constitutional crisis by finding a narrow procedural off-ramp. The decision did not address whether Trump engaged in insurrection, only that enforcement of Section 3 required congressional action."
+    },
+    "sources": "Trump v. Anderson, 601 U.S. ___ (2024); DOJ January 6 prosecution statistics; Federal sentencing records; Jack Smith indictment",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "2 populist contributors",
+      "reviewCount": 2,
+      "revisions": 12,
+      "lastUpdated": "4 days ago"
+    }
+  },
+  "sideB": {
+    "title": "The Two-Tiered System",
+    "body": "The January 6 prosecutions confirmed what millions of Americans already believed: the justice system treats political opponents of the establishment differently. Hundreds of defendants — many of whom entered the Capitol through open doors, committed no violence, and were charged with misdemeanors — received sentences harsher than those given to BLM rioters who caused billions in property damage. The federal indictment of a leading presidential candidate by the administration he was running against was banana-republic behavior, regardless of legal technicalities. Trump's 2024 victory was the electorate's verdict on the entire apparatus — the prosecutions, the impeachments, the attempts to keep him off the ballot. The people spoke.",
+    "context": {
+      "text": "The perception of selective prosecution was amplified by comparisons to the handling of 2020 summer protests. Most charges stemming from BLM-related unrest were dropped or resulted in minimal sentences, while January 6 defendants often faced prolonged pretrial detention. Whether this reflects appropriate scaling of federal resources to an attack on the Capitol or political bias depends entirely on how one defines the severity of the events."
+    },
+    "sources": "DOJ prosecution statistics comparison (2020 protests vs. Jan 6); Federal Bureau of Prisons records; Trump 2024 campaign statements; Heritage Foundation legal analysis",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "3 institutional contributors",
+      "reviewCount": 3,
+      "revisions": 15,
+      "lastUpdated": "3 days ago"
+    }
+  }
+}

@@ -4,7 +4,7 @@ import type { Provenance } from "@/lib/types";
 
 interface ProvenanceBarProps {
   provenance: Provenance;
-  side: "israeli" | "palestinian";
+  side: "a" | "b";
   opposingSideLabel: string;
 }
 
@@ -14,9 +14,9 @@ export default function ProvenanceBar({
   opposingSideLabel,
 }: ProvenanceBarProps) {
   const bgColor =
-    side === "israeli" ? "bg-israeli-prov" : "bg-palestinian-prov";
+    side === "a" ? "bg-side-a-prov" : "bg-side-b-prov";
   const accentColor =
-    side === "israeli" ? "text-israeli-accent" : "text-palestinian-accent";
+    side === "a" ? "text-side-a-accent" : "text-side-b-accent";
 
   return (
     <div className={`mt-4 rounded-lg ${bgColor} px-4 py-3`}>

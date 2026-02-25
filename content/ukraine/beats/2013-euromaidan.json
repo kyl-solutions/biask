@@ -1,0 +1,44 @@
+{
+  "id": "2013-euromaidan",
+  "year": 2013,
+  "title": "Euromaidan",
+  "agreedFacts": [
+    { "text": "In November 2013, President Yanukovych suspended an EU Association Agreement and pivoted toward a Russian economic package", "status": "agreed" },
+    { "text": "Mass protests erupted in Kyiv's Maidan Nezalezhnosti and spread to other cities", "status": "agreed" },
+    { "text": "Security forces used lethal force against protesters, killing over 100 people ('Heavenly Hundred')", "status": "agreed" },
+    { "text": "Yanukovych fled Ukraine on February 21-22, 2014, after a negotiated transition agreement collapsed within hours", "status": "agreed" },
+    { "text": "Whether Yanukovych's removal was a democratic revolution or an unconstitutional coup", "status": "disputed" }
+  ],
+  "bridgeStatement": "Contributors who disagree about whether Euromaidan was a revolution or a coup agree that it represented a decisive rupture in Ukrainian politics that forced the country to choose between European and Eurasian integration.",
+  "causalLink": "Both sides agree this uprising was shaped by",
+  "sideA": {
+    "title": "The Revolution of Dignity",
+    "body": "Euromaidan was the moment Ukrainians chose their own future. When Yanukovych reversed course on European integration under Russian pressure — accepting a $15 billion Russian bailout instead — hundreds of thousands took to the streets in freezing temperatures. The protests lasted three months. They endured beatings by Berkut riot police, kidnappings of activists, and ultimately sniper fire that killed over a hundred people. Yanukovych did not fall to a conspiracy — he fell because he ordered his security forces to murder citizens, and even his own party abandoned him. His flight to Russia was the act of a leader who had lost all legitimacy.",
+    "context": {
+      "text": "Ukraine's European aspirations were not born in 2013. The 2004 Orange Revolution had already demonstrated widespread demand for democratic governance and Western integration. Yanukovych's presidency (2010-2014) was marked by increasing authoritarianism, the imprisonment of opposition leader Yulia Tymoshenko, and growing oligarchic capture of state institutions."
+    },
+    "sources": "Euromaidan SOS documentation; Council of Europe investigation into sniper killings; EU-Ukraine Association Agreement text; Yanukovych corruption investigations",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "3 Russian contributors",
+      "reviewCount": 3,
+      "revisions": 14,
+      "lastUpdated": "5 days ago"
+    }
+  },
+  "sideB": {
+    "title": "The Coup That Started a War",
+    "body": "Russia views Euromaidan as a Western-backed coup that overthrew a democratically elected president. Yanukovych won a free and fair election in 2010, recognized by international observers. His decision to pause the EU agreement was a sovereign economic choice — the EU deal required painful reforms while Russia offered immediate financial relief. The protests were legitimate initially, but were hijacked by far-right nationalist groups (Right Sector, Svoboda) and orchestrated by Western diplomats — as evidenced by the leaked Nuland-Pyatt phone call discussing who should lead Ukraine's next government. The negotiated transition, brokered by EU foreign ministers, was violated within hours when parliament voted to remove Yanukovych without the constitutional supermajority required for impeachment.",
+    "context": {
+      "text": "The role of Western governments in the transition remains contested. The leaked phone call between US Assistant Secretary of State Victoria Nuland and Ambassador Geoffrey Pyatt — in which Nuland said 'F*** the EU' while discussing preferred opposition leaders — was cited by Moscow as evidence of direct American orchestration. The EU-brokered agreement signed on February 21, 2014, called for early elections and a unity government, but was abandoned before its ink dried."
+    },
+    "sources": "Nuland-Pyatt phone call transcript; EU-brokered February 21 agreement; OSCE election monitoring report (2010); Rada impeachment vote records",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "4 Ukrainian contributors",
+      "reviewCount": 4,
+      "revisions": 17,
+      "lastUpdated": "4 days ago"
+    }
+  }
+}

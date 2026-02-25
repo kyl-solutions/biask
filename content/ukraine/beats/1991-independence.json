@@ -1,0 +1,44 @@
+{
+  "id": "1991-independence",
+  "year": 1991,
+  "title": "Ukrainian Independence",
+  "agreedFacts": [
+    { "text": "Ukraine declared independence from the Soviet Union on August 24, 1991, following a parliamentary vote", "status": "agreed" },
+    { "text": "A December 1, 1991 referendum confirmed independence with over 92% support, including majorities in every region including Crimea", "status": "agreed" },
+    { "text": "Russia under Yeltsin recognized Ukrainian independence and the two states established diplomatic relations", "status": "agreed" },
+    { "text": "The dissolution of the Soviet Union left millions of ethnic Russians living in Ukraine, particularly in Crimea and eastern regions", "status": "agreed" },
+    { "text": "Whether Ukrainian independence created a legitimate nation-state or an artificial separation of historically connected peoples", "status": "disputed" }
+  ],
+  "bridgeStatement": "Contributors who disagree about the historical basis for Ukrainian statehood agree that the 1991 referendum — with 92% voting yes — represented the most decisive democratic mandate for independence of any post-Soviet state.",
+  "causalLink": "This founding moment was shaped by centuries of",
+  "sideA": {
+    "title": "A Nation Reclaimed",
+    "body": "Ukrainian independence was not a gift from the collapse of the Soviet Union — it was the culmination of centuries of national aspiration. Ukrainian identity, language, and culture survived Tsarist bans on the Ukrainian language, Stalin's engineered famine (the Holodomor, 1932-33, which killed millions), Soviet suppression of national movements, and decades of Russification. When the opportunity came in 1991, the vote was overwhelming: 92.3% chose independence. Not just in Kyiv and Lviv — even Crimea voted 54% yes, and Donetsk voted 83% yes. This was not an elite project imposed from above. It was a population choosing, by democratic supermajority, to govern itself.",
+    "context": {
+      "text": "Ukraine's national identity predates the Russian Empire. The Cossack Hetmanate, the Ukrainian People's Republic (1917-1921), the Ukrainian language and literary tradition — all demonstrate continuous national consciousness. The Soviet period attempted to subsume this identity within a 'friendship of peoples' that in practice meant Russian cultural and linguistic dominance."
+    },
+    "sources": "1991 referendum results by oblast; Ukrainian parliamentary declaration of independence; Holodomor documentation; Ukrainian historical scholarship",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "2 Russian contributors",
+      "reviewCount": 2,
+      "revisions": 8,
+      "lastUpdated": "1 week ago"
+    }
+  },
+  "sideB": {
+    "title": "The Dissolution Nobody Planned",
+    "body": "For Russia, Ukrainian independence was not a liberation but a tragedy — the disintegration of a shared civilization. Russians and Ukrainians had lived together for centuries, intermarried extensively, built a common culture, fought together against Napoleon and the Nazis, and constructed the Soviet superpower as partners. The borders of the Ukrainian SSR were administrative lines drawn by Soviet bureaucrats — not historical national boundaries. When Khrushchev transferred Crimea in 1954, it was an internal administrative gesture with no thought that it would someday become an international border. The 1991 referendum, held in the chaos of Soviet collapse, did not account for the millions of Russians who suddenly found themselves citizens of a foreign country through no choice of their own.",
+    "context": {
+      "text": "Putin's 2021 essay 'On the Historical Unity of Russians and Ukrainians' articulated the view that Ukrainians and Russians are 'one people' separated by historical accidents and Western manipulation. This view — widespread among Russian nationalists and not insignificant among ordinary Russians — sees Ukrainian statehood as a temporary aberration rather than a permanent settlement. The essay was published seven months before the invasion."
+    },
+    "sources": "Putin essay 'On the Historical Unity' (July 2021); Soviet administrative records; 1989 Soviet census data on ethnic composition; Solzhenitsyn on Russian-Ukrainian relations",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "4 Ukrainian contributors",
+      "reviewCount": 4,
+      "revisions": 14,
+      "lastUpdated": "6 days ago"
+    }
+  }
+}

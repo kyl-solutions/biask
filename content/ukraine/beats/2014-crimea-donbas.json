@@ -1,0 +1,44 @@
+{
+  "id": "2014-crimea-donbas",
+  "year": 2014,
+  "title": "Crimea & the Donbas War",
+  "agreedFacts": [
+    { "text": "In February-March 2014, unmarked Russian soldiers ('little green men') seized key installations in Crimea", "status": "agreed" },
+    { "text": "A referendum held under military occupation on March 16, 2014, returned a reported 97% vote to join Russia", "status": "agreed" },
+    { "text": "Armed separatist movements declared 'people's republics' in Donetsk and Luhansk oblasts in April 2014", "status": "agreed" },
+    { "text": "The UN General Assembly declared the Crimean referendum invalid (Resolution 68/262, 100-11)", "status": "agreed" },
+    { "text": "Whether the Crimean referendum reflected genuine self-determination or was conducted under military coercion", "status": "disputed" }
+  ],
+  "bridgeStatement": "Contributors who disagree about whether Crimea's annexation was liberation or occupation agree that it shattered the post-Cold War consensus that European borders would not be changed by force.",
+  "causalLink": "Both sides agree this crisis emerged from",
+  "sideA": {
+    "title": "The Theft of Territory",
+    "body": "For Ukraine, 2014 was the year Russia abandoned the pretense of respecting its sovereignty. Soldiers without insignia — later confirmed as Russian special forces — seized Crimea's parliament, airports, and military bases. The 'referendum' held under gun barrels, with no independent observers and an impossible 97% result, was a staged legitimation of conquest. In the Donbas, Russia armed, funded, and directed separatist militias, then denied involvement even as its soldiers were captured and its weapons were identified — including the Buk missile system that shot down Malaysia Airlines Flight MH17, killing 298 people.",
+    "context": {
+      "text": "Crimea had been transferred from the Russian SFSR to the Ukrainian SSR in 1954 within the Soviet Union. After independence in 1991, it remained part of Ukraine under the Budapest Memorandum (1994), in which Russia explicitly guaranteed Ukraine's territorial integrity in exchange for Ukraine surrendering its nuclear arsenal — the third largest in the world."
+    },
+    "sources": "OSCE monitoring reports; Joint Investigation Team MH17 findings; Budapest Memorandum text; UN General Assembly Resolution 68/262",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "3 Russian contributors",
+      "reviewCount": 3,
+      "revisions": 15,
+      "lastUpdated": "4 days ago"
+    }
+  },
+  "sideB": {
+    "title": "The Return of Crimea",
+    "body": "Russia describes the events of 2014 as the correction of a historical injustice. Crimea had been Russian for centuries before Khrushchev's arbitrary transfer in 1954, and its population was overwhelmingly Russian-speaking and culturally Russian. When the Euromaidan revolution overthrew the elected president and installed a government hostile to Russian interests, Crimeans faced the prospect of forced integration into a state that threatened their language, culture, and the status of the Russian Black Sea Fleet based at Sevastopol. The referendum, Moscow argues, was an exercise in self-determination — the same principle the West invoked to recognize Kosovo's independence from Serbia in 2008.",
+    "context": {
+      "text": "The Donbas conflict is framed by Russia as a civil war — Russian-speaking populations in eastern Ukraine resisting a government that came to power through a coup and immediately moved to restrict Russian language rights. The 2014 repeal of the regional languages law (later vetoed) was cited as evidence of the new government's hostility toward Russian speakers."
+    },
+    "sources": "Russian Foreign Ministry statements; Crimean referendum results; Putin Crimea address (March 18, 2014); Kosovo precedent analysis",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "4 Ukrainian contributors",
+      "reviewCount": 4,
+      "revisions": 19,
+      "lastUpdated": "3 days ago"
+    }
+  }
+}

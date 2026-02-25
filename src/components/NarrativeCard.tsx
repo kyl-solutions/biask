@@ -6,7 +6,7 @@ import ProvenanceBar from "./ProvenanceBar";
 
 interface NarrativeCardProps {
   narrative: Narrative;
-  side: "israeli" | "palestinian";
+  side: "a" | "b";
   opposingSideLabel: string;
 }
 
@@ -16,9 +16,9 @@ export default function NarrativeCard({
   opposingSideLabel,
 }: NarrativeCardProps) {
   const bgColor =
-    side === "israeli" ? "bg-israeli-bg" : "bg-palestinian-bg";
+    side === "a" ? "bg-side-a-bg" : "bg-side-b-bg";
   const accentColor =
-    side === "israeli" ? "text-israeli-accent" : "text-palestinian-accent";
+    side === "a" ? "text-side-a-accent" : "text-side-b-accent";
 
   return (
     <motion.article

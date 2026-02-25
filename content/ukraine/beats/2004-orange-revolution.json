@@ -1,0 +1,44 @@
+{
+  "id": "2004-orange-revolution",
+  "year": 2004,
+  "title": "The Orange Revolution",
+  "agreedFacts": [
+    { "text": "The 2004 Ukrainian presidential election between Viktor Yanukovych and Viktor Yushchenko was marred by widespread fraud", "status": "agreed" },
+    { "text": "Yushchenko was poisoned with dioxin during the campaign, causing severe disfigurement", "status": "agreed" },
+    { "text": "Mass protests in Kyiv forced a Supreme Court-ordered revote, which Yushchenko won", "status": "agreed" },
+    { "text": "Russia had openly supported Yanukovych's candidacy, with Putin visiting Kyiv during the campaign", "status": "agreed" },
+    { "text": "Whether the Orange Revolution was a genuine democratic movement or a Western-engineered 'color revolution'", "status": "disputed" }
+  ],
+  "bridgeStatement": "Contributors who disagree about the Orange Revolution's origins agree that it demonstrated the depth of Ukraine's internal division between European-oriented western regions and Russian-oriented eastern regions — a fault line that would define the next two decades.",
+  "causalLink": "Both sides agree this political crisis was rooted in",
+  "sideA": {
+    "title": "Democracy Won",
+    "body": "The Orange Revolution was Ukraine's democratic immune system fighting off infection. When the Yanukovych campaign poisoned its opponent, stuffed ballot boxes, and declared victory with Russia's premature blessing, Ukrainians refused to accept it. Hundreds of thousands camped in freezing Kyiv for weeks, wearing orange and demanding a fair count. The Supreme Court agreed: the election was fraudulent. The revote was clean, and Yushchenko won. It was proof that Ukrainians valued their democratic institutions enough to defend them in the street — even against a candidate backed by the full weight of Russian interference.",
+    "context": {
+      "text": "The poisoning of Yushchenko with TCDD dioxin — confirmed by multiple international laboratories — remains one of the most brazen assassination attempts against a democratic candidate in modern European history. Though Yushchenko survived, the disfigurement was severe. No one has been convicted, but the sophistication of the agent pointed to state-level capabilities."
+    },
+    "sources": "OSCE election monitoring reports (2004); Vienna medical reports on Yushchenko poisoning; Ukrainian Supreme Court ruling; Western diplomatic cables",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "2 Russian contributors",
+      "reviewCount": 2,
+      "revisions": 10,
+      "lastUpdated": "1 week ago"
+    }
+  },
+  "sideB": {
+    "title": "The First Color Revolution",
+    "body": "Russia views the Orange Revolution as a template — the first successful 'color revolution' engineered by Western-funded NGOs to install pro-American governments on Russia's borders. Organizations like the National Endowment for Democracy, the International Republican Institute, and USAID had spent years building civil society networks, training activists, and funding media outlets in Ukraine. When the election didn't produce the Western-preferred candidate, these networks were activated. The protests were real, but their organization, funding, and strategic direction came from abroad. Serbia's Otpor movement — another Western-backed operation — provided direct training to Ukrainian activist groups. From Moscow's perspective, this was regime change dressed as democracy.",
+    "context": {
+      "text": "Russia's reading of color revolutions — Georgia's Rose Revolution (2003), Ukraine's Orange Revolution (2004), Kyrgyzstan's Tulip Revolution (2005) — as a coordinated Western strategy to encircle Russia shaped Putin's worldview for the next two decades. The Kremlin began investing heavily in counter-influence operations and tightening controls on domestic NGOs with foreign funding."
+    },
+    "sources": "NED funding records; Gene Sharp influence documentation; Otpor-Pora connections; Russian Foreign Ministry analysis of color revolutions; Putin Munich Security Conference speech (2007)",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "3 Ukrainian contributors",
+      "reviewCount": 3,
+      "revisions": 12,
+      "lastUpdated": "1 week ago"
+    }
+  }
+}

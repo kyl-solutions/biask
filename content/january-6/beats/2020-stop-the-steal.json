@@ -1,0 +1,44 @@
+{
+  "id": "2020-stop-the-steal",
+  "year": 2020,
+  "title": "\"Stop the Steal\" & the Legal Challenges",
+  "agreedFacts": [
+    { "text": "Between November 2020 and January 2021, the Trump campaign and allies filed over 60 lawsuits challenging election results in multiple states", "status": "agreed" },
+    { "text": "Nearly all lawsuits were dismissed or withdrawn, including by Trump-appointed judges", "status": "agreed" },
+    { "text": "The 'Stop the Steal' movement organized rallies and protests across the country", "status": "agreed" },
+    { "text": "Attorney General Bill Barr stated publicly that the DOJ had not found evidence of fraud sufficient to change the election outcome", "status": "agreed" },
+    { "text": "Whether the legal challenges represented legitimate democratic contestation or a coordinated attempt to subvert the election", "status": "disputed" }
+  ],
+  "bridgeStatement": "Contributors who disagree about the legitimacy of the legal challenges agree that the gap between the claims made in public (massive fraud) and the claims made in court (procedural irregularities) was significant and consequential — eroding trust in institutions regardless of which side was correct.",
+  "causalLink": "Both sides agree this post-election crisis was fueled by",
+  "sideA": {
+    "title": "The Big Lie",
+    "body": "In the weeks following the election, Trump and his allies constructed a narrative of mass voter fraud that had no basis in evidence. The claims mutated constantly — dead voters, ballot dumps, rigged machines, foreign interference — but none survived contact with the legal system. Over 60 court cases were dismissed, many by Republican and Trump-appointed judges. Trump's own Attorney General said it was 'bullshit.' His cybersecurity director (Chris Krebs) called it the most secure election in American history and was fired for saying so. The 'Stop the Steal' movement was not an exercise in democratic accountability — it was the deliberate construction of an alternative reality to justify overturning an election that Trump lost by over 7 million votes.",
+    "context": {
+      "text": "The distinction between what was said in public and what was argued in court is critical. In press conferences, Giuliani and others alleged massive fraud. In court, under penalty of sanctions, lawyers repeatedly told judges they were not alleging fraud. This gap — between the narrative sold to the public and the claims made under oath — is the evidentiary core of the institutional case."
+    },
+    "sources": "Court rulings in 60+ election cases; Barr interview (AP, Dec 2020); Krebs CISA statement; Giuliani court transcripts vs. press conferences",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "2 populist contributors",
+      "reviewCount": 2,
+      "revisions": 16,
+      "lastUpdated": "3 days ago"
+    }
+  },
+  "sideB": {
+    "title": "The Questions That Were Never Answered",
+    "body": "Tens of millions of Americans watched an election where the rules were changed mid-game — ostensibly because of COVID — and the results defied expectations. Mail-in voting was massively expanded with weakened verification in key states. Counting was halted on election night with Trump leading, then resumed with overwhelming Biden margins. Statistical anomalies in key precincts were flagged by data analysts and never adequately explained. Republican poll watchers were denied meaningful access in multiple jurisdictions. The courts did not 'reject the evidence' — in most cases, they dismissed on procedural grounds (standing, laches, mootness) without reaching the merits. The legal system's refusal to hear the evidence is not the same as disproving the claims. The 74 million Americans who voted for Trump deserved transparent answers. They got dismissals.",
+    "context": {
+      "text": "The procedural posture of the lawsuits is a key point of contention. Many cases were dismissed on standing (the plaintiff couldn't prove direct harm) or timeliness (the challenge should have been brought before the election, not after). Populist critics argue these procedural barriers prevented the underlying factual claims from ever being evaluated on their merits — creating the appearance of resolution without actual investigation."
+    },
+    "sources": "Court dismissal orders (procedural grounds analysis); State election rule changes (2020); Statistical analyses (various); Republican poll watcher affidavits",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "3 institutional contributors",
+      "reviewCount": 3,
+      "revisions": 18,
+      "lastUpdated": "3 days ago"
+    }
+  }
+}

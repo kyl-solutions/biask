@@ -13,7 +13,7 @@
   ],
   "bridgeStatement": "Contributors who disagree about whether Oslo was a breakthrough or a trap agree that Rabin's assassination was a turning point that altered the trajectory of the entire process.",
   "causalLink": "Both sides agree the Oslo framework was shaped by",
-  "israeli": {
+  "sideA": {
     "title": "The Handshake That Changed Everything",
     "body": "Oslo was a seismic shift in Israeli politics. Yitzhak Rabin — a military hero, a general who conquered the West Bank in 1967 — stood on the White House lawn and shook Yasser Arafat's hand. For the Israeli peace camp, this was vindication: security through negotiation, not just force. The accords envisioned a phased process — confidence-building steps leading to a final status agreement on borders, Jerusalem, refugees, and security. But Oslo was fragile from the start. Hamas launched suicide bombings designed to derail the process. Israeli settlers viewed it as betrayal. Rabin's assassination by a Jewish extremist in 1995 killed not just a leader but the political will that had made Oslo possible.",
     "context": {
@@ -28,7 +28,7 @@
       "lastUpdated": "4 days ago"
     }
   },
-  "palestinian": {
+  "sideB": {
     "title": "The Peace That Built Settlements",
     "body": "Oslo asked Palestinians to recognize the state that occupied them while deferring every critical issue — borders, Jerusalem, refugees, settlements — to 'final status' talks that never concluded. In the meantime, the number of Israeli settlers in the West Bank doubled from approximately 110,000 in 1993 to over 200,000 by 2000. The Palestinian Authority became an administrative layer that managed the occupation on Israel's behalf, responsible for Palestinian daily life but controlling neither borders, water, nor movement. The international community treated Oslo as peace achieved, reducing pressure on Israel while settlements ate into the land Palestinians were told would become their state. For many Palestinians, Oslo didn't fail — it worked exactly as designed: buying time for facts on the ground.",
     "context": {

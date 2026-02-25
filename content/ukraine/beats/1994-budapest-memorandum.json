@@ -1,0 +1,44 @@
+{
+  "id": "1994-budapest-memorandum",
+  "year": 1994,
+  "title": "The Budapest Memorandum",
+  "agreedFacts": [
+    { "text": "In 1994, Ukraine signed the Budapest Memorandum, agreeing to transfer its nuclear weapons to Russia", "status": "agreed" },
+    { "text": "At the time of independence, Ukraine possessed the world's third-largest nuclear arsenal (~1,900 strategic warheads)", "status": "agreed" },
+    { "text": "Russia, the US, and the UK provided security assurances to Ukraine in exchange for denuclearization", "status": "agreed" },
+    { "text": "The memorandum committed signatories to respect Ukraine's territorial integrity and sovereignty", "status": "agreed" },
+    { "text": "Whether the Budapest Memorandum constituted a binding security guarantee or merely political assurances", "status": "disputed" }
+  ],
+  "bridgeStatement": "Contributors who disagree about the memorandum's legal force agree that Ukraine surrendered a powerful deterrent in exchange for promises that were not kept — and that this failure has undermined the global nonproliferation regime.",
+  "causalLink": "Both sides agree this agreement was shaped by",
+  "sideA": {
+    "title": "The Broken Promise",
+    "body": "Ukraine gave up the third-largest nuclear arsenal in the world — larger than Britain, France, and China combined — in exchange for explicit security assurances from Russia, the United States, and the United Kingdom. The Budapest Memorandum committed all three to 'respect the independence and sovereignty and the existing borders of Ukraine' and to 'refrain from the threat or use of force against the territorial integrity or political independence of Ukraine.' Russia violated every clause in 2014. The US and UK did not enforce them. Ukraine's denuclearization is now the most consequential broken promise in post-Cold War history — and the single most powerful argument against nonproliferation.",
+    "context": {
+      "text": "Ukrainian politicians debated fiercely before signing. Many argued that nuclear weapons were the only reliable guarantee of sovereignty against a neighbor with a history of imperial ambition. They were overruled by international pressure and the promise of security assurances. Every subsequent Ukrainian leader who warned that Russia might invade was told it was impossible — that the post-Cold War order would hold."
+    },
+    "sources": "Budapest Memorandum text; Ukrainian Rada debate transcripts (1994); SIPRI nuclear weapons data; Nonproliferation Treaty review conference discussions",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "2 Russian contributors",
+      "reviewCount": 2,
+      "revisions": 9,
+      "lastUpdated": "1 week ago"
+    }
+  },
+  "sideB": {
+    "title": "Assurances, Not Guarantees",
+    "body": "Russia argues that the Budapest Memorandum was not a binding treaty but a set of political assurances — a distinction with enormous legal significance. The memorandum contained no enforcement mechanism, no mutual defense clause, and no ratification by the Russian Duma as a treaty. Moreover, Russia argues that the assurances were given to a specific Ukrainian state — one that existed within its 1994 constitutional order. When that constitutional order was overthrown by the 2014 Euromaidan revolution, Russia contends, the political basis for the assurances ceased to exist. The Crimean population's expressed desire to rejoin Russia, in this view, represented self-determination — the same principle the memorandum was meant to protect.",
+    "context": {
+      "text": "The legal debate over the memorandum's status is not merely academic. 'Security assurances' occupy a gray zone in international law — stronger than a political statement but weaker than a treaty obligation. The US and UK have acknowledged their commitments under the memorandum but have interpreted them as requiring consultation rather than military intervention. This interpretation left Ukraine without a credible security guarantee."
+    },
+    "sources": "Budapest Memorandum text; Russian Foreign Ministry legal analysis; International law commentary on political assurances vs. treaties; US State Department interpretation",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "3 Ukrainian contributors",
+      "reviewCount": 3,
+      "revisions": 11,
+      "lastUpdated": "1 week ago"
+    }
+  }
+}

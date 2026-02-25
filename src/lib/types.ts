@@ -29,9 +29,14 @@ export interface Beat {
   title: string;
   agreedFacts: AgreedFact[];
   bridgeStatement: string;
-  causalLink: string; // "Both sides agree this is rooted in..."
-  israeli: Narrative;
-  palestinian: Narrative;
+  causalLink: string;
+  sideA: Narrative;
+  sideB: Narrative;
+}
+
+export interface ConflictTheme {
+  sideA: { bg: string; accent: string; prov: string };
+  sideB: { bg: string; accent: string; prov: string };
 }
 
 export interface ConflictMeta {
@@ -40,8 +45,8 @@ export interface ConflictMeta {
   subtitle: string;
   dateRange: string;
   description: string;
-  israeliContributors: number;
-  palestinianContributors: number;
+  sideAContributors: number;
+  sideBContributors: number;
   independentReviewers: number;
   sideA: {
     label: string;
@@ -51,4 +56,5 @@ export interface ConflictMeta {
     label: string;
     adjective: string;
   };
+  theme: ConflictTheme;
 }

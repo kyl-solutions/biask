@@ -13,7 +13,7 @@ interface ReviewFlowProps {
 
 interface ReviewData {
   target: string;
-  targetType: "agreed-fact" | "disputed-fact" | "israeli-narrative" | "palestinian-narrative" | "bridge-statement" | "";
+  targetType: "agreed-fact" | "disputed-fact" | "side-a-narrative" | "side-b-narrative" | "bridge-statement" | "";
   stance: "agree" | "disagree" | "nuance" | "";
   basisType: "academic" | "journalistic" | "firsthand" | "institutional" | "other" | "";
   sources: string;
@@ -111,15 +111,15 @@ export default function ReviewFlow({ open, onClose, beat, meta }: ReviewFlowProp
       badge: f.status,
     })),
     {
-      label: `${meta.sideA.adjective} narrative: "${beat.israeli.title}"`,
-      value: beat.israeli.title,
-      type: "israeli-narrative" as const,
+      label: `${meta.sideA.adjective} narrative: "${beat.sideA.title}"`,
+      value: beat.sideA.title,
+      type: "side-a-narrative" as const,
       badge: "narrative",
     },
     {
-      label: `${meta.sideB.adjective} narrative: "${beat.palestinian.title}"`,
-      value: beat.palestinian.title,
-      type: "palestinian-narrative" as const,
+      label: `${meta.sideB.adjective} narrative: "${beat.sideB.title}"`,
+      value: beat.sideB.title,
+      type: "side-b-narrative" as const,
       badge: "narrative",
     },
     ...(beat.bridgeStatement
@@ -317,8 +317,8 @@ export default function ReviewFlow({ open, onClose, beat, meta }: ReviewFlowProp
           </p>
           <div className="mt-5 space-y-3">
             {([
-              { value: meta.sideA.adjective, color: "israeli-accent" },
-              { value: meta.sideB.adjective, color: "palestinian-accent" },
+              { value: meta.sideA.adjective, color: "side-a-accent" },
+              { value: meta.sideB.adjective, color: "side-b-accent" },
               { value: "Both equally", color: "text-primary" },
               { value: "Neither — I'm an outside observer", color: "text-muted" },
             ]).map((opt) => (

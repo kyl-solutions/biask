@@ -1,0 +1,44 @@
+{
+  "id": "2020-election-count",
+  "year": 2020,
+  "title": "The Election & the Count",
+  "agreedFacts": [
+    { "text": "Joe Biden won the 2020 presidential election with 306 electoral votes to Trump's 232 and a popular vote margin of approximately 7 million", "status": "agreed" },
+    { "text": "The election saw record turnout — over 159 million votes cast, the highest in American history", "status": "agreed" },
+    { "text": "Mail-in and early voting surged dramatically due to the COVID-19 pandemic, with rules varying significantly by state", "status": "agreed" },
+    { "text": "Multiple states changed voting procedures in 2020, some through legislation and others through executive or judicial action", "status": "agreed" },
+    { "text": "Whether the procedural changes compromised election integrity or expanded democratic participation", "status": "disputed" }
+  ],
+  "bridgeStatement": "Contributors who disagree about the election's integrity agree that the unprecedented expansion of mail-in voting during a pandemic, combined with a deeply polarized electorate, created conditions where trust in the process became inseparable from trust in the outcome.",
+  "causalLink": "Both sides agree this election was shaped by",
+  "sideA": {
+    "title": "Democracy Delivered Under Pressure",
+    "body": "The 2020 election was conducted during a global pandemic that killed hundreds of thousands of Americans — and it still achieved the highest turnout in over a century. Election officials from both parties worked under extraordinary conditions: processing record numbers of mail ballots, maintaining social distancing at polling stations, recruiting poll workers to replace elderly volunteers who couldn't safely participate. The system was tested beyond anything in living memory and it held. Every state certified its results. Every recount confirmed the outcome. Every audit — including the Republican-commissioned Arizona audit — confirmed or slightly expanded Biden's margin. The 2020 election was not stolen. It was the most scrutinized election in American history, and it withstood every challenge.",
+    "context": {
+      "text": "CISA (the Cybersecurity and Infrastructure Security Agency, led by Trump appointee Chris Krebs) issued a statement calling 2020 'the most secure election in American history.' Krebs was fired by tweet the following week. The agency's assessment was based on its monitoring of election infrastructure across all 50 states and found no evidence of system compromise."
+    },
+    "sources": "CISA election security statement; State certification records; Recount results; Arizona Cyber Ninjas audit final report; FEC turnout data",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "2 populist contributors",
+      "reviewCount": 2,
+      "revisions": 11,
+      "lastUpdated": "5 days ago"
+    }
+  },
+  "sideB": {
+    "title": "The Election That Didn't Feel Right",
+    "body": "For millions of Americans, the 2020 election results contradicted observable reality. Trump drew enormous rallies; Biden campaigned from his basement. Trump won 18 of 19 bellwether counties; Biden won the election. Trump gained 11 million votes over 2016; he lost. In key swing states, counting stopped on election night with Trump leading, then resumed with improbable Biden margins from mail-in ballots. Chain of custody procedures were weakened or abandoned in multiple jurisdictions. Signature verification was relaxed or eliminated. In Pennsylvania, the state supreme court overrode the legislature's election deadline — a decision even Justice Alito flagged as constitutionally suspect. These weren't conspiracy theories — they were observable facts that, taken together, undermined confidence in a process that demands confidence to function.",
+    "context": {
+      "text": "The 'blue shift' — Biden's gains as mail ballots were counted after Election Day — was predicted by analysts and explained by Democrats voting by mail at much higher rates than Republicans (a dynamic Trump himself encouraged by telling supporters to vote in person). But the visual reality of leads evaporating overnight, combined with the removal of Republican observers in some locations, created a visceral experience of something going wrong that no amount of statistical explanation could overcome."
+    },
+    "sources": "Bellwether county analysis; State-level vote reporting timelines; PA Supreme Court deadline ruling; Mail-in ballot request and return data by party",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "3 institutional contributors",
+      "reviewCount": 3,
+      "revisions": 14,
+      "lastUpdated": "4 days ago"
+    }
+  }
+}

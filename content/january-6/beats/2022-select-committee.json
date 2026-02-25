@@ -1,0 +1,44 @@
+{
+  "id": "2022-select-committee",
+  "year": 2022,
+  "title": "The Select Committee Investigation",
+  "agreedFacts": [
+    { "text": "The House Select Committee held nine public hearings in 2022, featuring testimony from Trump administration officials", "status": "agreed" },
+    { "text": "Key witnesses included former Attorney General Bill Barr, White House counsel Pat Cipollone, and Cassidy Hutchinson", "status": "agreed" },
+    { "text": "The committee referred Donald Trump to the DOJ on four criminal charges, including insurrection", "status": "agreed" },
+    { "text": "House Republicans who participated (Cheney, Kinzinger) faced significant political consequences within their party", "status": "agreed" },
+    { "text": "Whether the committee was a legitimate investigation or a partisan show trial", "status": "disputed" }
+  ],
+  "bridgeStatement": "Contributors who disagree about the committee's legitimacy agree that the testimony it produced — particularly from Republican officials and Trump appointees — constituted the most detailed public record of executive branch decision-making during a crisis in modern American history.",
+  "causalLink": "Both sides agree this investigation was driven by",
+  "sideA": {
+    "title": "The Record That Cannot Be Unseen",
+    "body": "The Select Committee assembled a devastating evidentiary record — not from hostile witnesses, but from Trump's own people. Bill Barr called the election fraud claims 'bullshit.' White House counsel threatened to resign en masse. Cassidy Hutchinson testified that Trump wanted to march to the Capitol and knew attendees were armed. The committee presented a methodical case: the violence was not spontaneous but the foreseeable result of a deliberate campaign to overturn a democratic election. The criminal referral was historic but secondary — the hearings themselves placed the evidence in the public record where it cannot be erased.",
+    "context": {
+      "text": "The committee operated without the usual minority party participation after House Republicans (except Cheney and Kinzinger) boycotted. This absence, while providing ammunition for critics, also meant the hearings proceeded without the procedural obstruction that typically limits congressional investigations. The result was an unusually coherent presentation of evidence."
+    },
+    "sources": "Select Committee final report; Hearing transcripts and video; Witness depositions; Committee documentary evidence",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "2 populist contributors",
+      "reviewCount": 2,
+      "revisions": 10,
+      "lastUpdated": "5 days ago"
+    }
+  },
+  "sideB": {
+    "title": "The Show Trial",
+    "body": "The January 6 Committee was a political operation designed to produce a predetermined conclusion. Speaker Pelosi rejected Republican-appointed members (Jim Jordan, Jim Banks), installed two anti-Trump Republicans as bipartisan cover, controlled all witness questioning, edited video testimony for maximum impact, and ran the hearings like a primetime television production — because that's what they were. The committee had no adversarial process, no cross-examination, no minority counsel. Witnesses were questioned by staff lawyers coached to elicit specific narratives. Evidence that didn't fit the story was suppressed — including extensive footage of peaceful protesters and police opening doors. The entire exercise violated the norms of congressional investigation to function as a campaign tool against Trump ahead of the 2024 election.",
+    "context": {
+      "text": "Pelosi's rejection of Jordan and Banks was unprecedented — minority party leaders had always selected their own members for select committees. Republicans argued this transformed the committee from an investigation into a prosecution. The lack of adversarial questioning meant witness claims went unchallenged in real time, a departure from standard congressional practice."
+    },
+    "sources": "Pelosi rejection letter; Republican conference objections; Committee procedural records; Released Capitol security footage (2023)",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "3 institutional contributors",
+      "reviewCount": 3,
+      "revisions": 13,
+      "lastUpdated": "4 days ago"
+    }
+  }
+}

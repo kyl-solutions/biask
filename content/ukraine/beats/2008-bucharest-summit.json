@@ -1,0 +1,44 @@
+{
+  "id": "2008-bucharest-summit",
+  "year": 2008,
+  "title": "The NATO Bucharest Summit",
+  "agreedFacts": [
+    { "text": "At the April 2008 NATO summit in Bucharest, the alliance declared that Ukraine and Georgia 'will become members of NATO'", "status": "agreed" },
+    { "text": "The declaration stopped short of offering a Membership Action Plan (MAP), reflecting opposition from France and Germany", "status": "agreed" },
+    { "text": "Russia's ambassador warned that NATO membership for Ukraine would be a 'direct threat' to Russian security", "status": "agreed" },
+    { "text": "Four months later, Russia fought a five-day war with Georgia over the breakaway regions of South Ossetia and Abkhazia", "status": "agreed" },
+    { "text": "Whether the Bucharest declaration was a legitimate exercise of alliance sovereignty or a provocative overreach", "status": "disputed" }
+  ],
+  "bridgeStatement": "Contributors who disagree about whether NATO expansion caused the conflict agree that the Bucharest Summit created a strategic ambiguity — promising membership without providing it — that served neither Ukraine's security nor European stability.",
+  "causalLink": "Both sides agree this declaration was conditioned by",
+  "sideA": {
+    "title": "The Promise That Was Never Kept",
+    "body": "For Ukraine, the Bucharest declaration was both a validation and a betrayal. The words 'will become members' acknowledged Ukraine's sovereign right to choose its own alliances — the same right exercised by Poland, the Czech Republic, and the Baltic states. But the refusal to offer a concrete pathway (the Membership Action Plan) left Ukraine in the worst possible position: provocative enough to antagonize Russia, but without the Article 5 security guarantee that would have deterred aggression. In hindsight, Bucharest was the moment the West declared a commitment it was unwilling to back. Ukraine was left exposed.",
+    "context": {
+      "text": "The debate within NATO reflected a fundamental tension. The United States, under President Bush, pushed hard for MAP invitations. France and Germany blocked it, arguing it would unnecessarily provoke Russia. The compromise language — strong on aspiration, weak on timeline — became a template for Western policy toward Ukraine: symbolic support without strategic commitment."
+    },
+    "sources": "NATO Bucharest Summit Declaration; US diplomatic cables (WikiLeaks); Merkel-Sarkozy statements on MAP opposition; Burns memo to Secretary Rice (2008)",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "3 Russian contributors",
+      "reviewCount": 3,
+      "revisions": 11,
+      "lastUpdated": "6 days ago"
+    }
+  },
+  "sideB": {
+    "title": "The Red Line That Was Crossed",
+    "body": "Russia views the Bucharest declaration as the moment NATO abandoned any pretense of being a defensive alliance. For Moscow, every previous wave of expansion — Poland, the Baltics, Romania, Bulgaria — had been absorbed with protests but not action, because those states were not on Russia's immediate security perimeter in the way Ukraine was. Ukraine shares a 2,000-kilometer border with Russia. Its integration into NATO would place alliance military infrastructure directly adjacent to Russia's heartland, including the Black Sea Fleet headquarters in Crimea. Putin reportedly told Bush directly at Bucharest: 'Ukraine is not even a state. Part of its territory is Eastern Europe, but the greater part is a gift from us.' The Georgia war four months later was widely interpreted as Moscow's demonstration that it would use force to prevent further expansion.",
+    "context": {
+      "text": "William Burns, then US Ambassador to Russia (later CIA Director), wrote in a February 2008 cable: 'Ukrainian entry into NATO is the brightest of all redlines for the Russian elite (not just Putin). I have yet to find anyone who views Ukraine in NATO as anything other than a direct challenge to Russian interests.' This assessment, made before the summit, reflected near-unanimous expert opinion that the declaration would escalate rather than resolve tensions."
+    },
+    "sources": "Burns cable (Nyet Means Nyet, Feb 2008); Putin-Bush exchange at Bucharest (per multiple diplomatic sources); Lavrov press conference post-summit; Russia-Georgia War timeline",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "4 Ukrainian contributors",
+      "reviewCount": 4,
+      "revisions": 13,
+      "lastUpdated": "5 days ago"
+    }
+  }
+}

@@ -2,29 +2,32 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ab83e0-20260225-demo-biask.pages.dev"),
-  title: "biask — Israel / Palestine",
+  metadataBase: new URL("https://biask.kyl.solutions"),
+  title: {
+    default: "biask — Interrogate Your Bias",
+    template: "%s | biask",
+  },
   description:
-    "Understanding conflict through both sides. Contributors who disagree agree on the facts.",
+    "Structured disagreement on the issues that divide us. Not who is right — why each side believes what it does.",
   openGraph: {
-    title: "biask — Israel / Palestine",
+    title: "biask — Interrogate Your Bias",
     description:
-      "Contributors who disagree about the conflict agree on what actually happened. Explore the consensus.",
+      "Contributors who disagree agree on the facts. Explore conflicts through both sides.",
     type: "website",
     images: [
       {
         url: "/og.svg",
         width: 1200,
         height: 630,
-        alt: "biask — Israel / Palestine: Contributors who disagree agree on the facts",
+        alt: "biask — Interrogate Your Bias",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "biask — Israel / Palestine",
+    title: "biask — Interrogate Your Bias",
     description:
-      "Contributors who disagree about the conflict agree on what actually happened.",
+      "Contributors who disagree agree on the facts. Explore conflicts through both sides.",
     images: ["/og.svg"],
   },
 };

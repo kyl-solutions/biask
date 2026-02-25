@@ -1,15 +1,15 @@
 @import "tailwindcss";
 
 @theme {
-  /* Israeli side */
-  --color-israeli-bg: #E8EEF5;
-  --color-israeli-accent: #2563EB;
-  --color-israeli-prov: #F0F4F8;
+  /* Side A */
+  --color-side-a-bg: #E8EEF5;
+  --color-side-a-accent: #2563EB;
+  --color-side-a-prov: #F0F4F8;
 
-  /* Palestinian side */
-  --color-palestinian-bg: #F5EBE8;
-  --color-palestinian-accent: #B45309;
-  --color-palestinian-prov: #FAF5F2;
+  /* Side B */
+  --color-side-b-bg: #F5EBE8;
+  --color-side-b-accent: #B45309;
+  --color-side-b-prov: #FAF5F2;
 
   /* Neutrals */
   --color-page-bg: #F5F5F5;

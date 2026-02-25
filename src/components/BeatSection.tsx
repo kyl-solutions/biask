@@ -44,11 +44,11 @@ export default function BeatSection({
 
       {/* Three-column layout */}
       <div className="grid gap-6 md:grid-cols-[1fr_minmax(340px,400px)_1fr]">
-        {/* Israeli column */}
+        {/* Side A column */}
         <div className="order-2 md:order-1">
           <NarrativeCard
-            narrative={beat.israeli}
-            side="israeli"
+            narrative={beat.sideA}
+            side="a"
             opposingSideLabel={meta.sideB.adjective}
           />
         </div>
@@ -105,11 +105,11 @@ export default function BeatSection({
           )}
         </div>
 
-        {/* Palestinian column */}
+        {/* Side B column */}
         <div className="order-3">
           <NarrativeCard
-            narrative={beat.palestinian}
-            side="palestinian"
+            narrative={beat.sideB}
+            side="b"
             opposingSideLabel={meta.sideA.adjective}
           />
         </div>

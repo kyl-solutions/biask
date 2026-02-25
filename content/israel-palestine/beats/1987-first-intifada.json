@@ -12,7 +12,7 @@
   ],
   "bridgeStatement": "Contributors who disagree about whether the intifada was terrorism or resistance agree that it was the moment the Palestinian population under occupation became impossible for the world to ignore.",
   "causalLink": "Both sides agree this uprising was the culmination of",
-  "israeli": {
+  "sideA": {
     "title": "The Shock of the Stones",
     "body": "For twenty years after 1967, Israel governed the West Bank and Gaza with relative quiet. The intifada shattered that stability. Images of Palestinian children throwing stones at Israeli soldiers upended Israel's self-image and its international standing. The military, built to fight armies, was now policing a civilian population. Rabin's order to 'break their bones' reflected the frustration of a security establishment confronting a problem force couldn't solve. The intifada divided Israeli society: some saw it as proof that occupation was unsustainable; others saw it as evidence that Palestinians only understood strength. Both camps agreed on one thing — the status quo had broken.",
     "context": {
@@ -27,7 +27,7 @@
       "lastUpdated": "6 days ago"
     }
   },
-  "palestinian": {
+  "sideB": {
     "title": "The Awakening",
     "body": "Twenty years of military occupation — land confiscation, settlement expansion, arbitrary detention, daily humiliation at checkpoints — finally erupted. The intifada was not planned by any faction; it began spontaneously when an Israeli truck killed four Palestinian workers in Gaza. What made it transformative was its character: this was a popular uprising, not an armed guerrilla campaign. Women, children, shopkeepers, and students all participated through strikes, tax refusal, and stone-throwing. The Unified National Leadership of the Uprising issued leaflets organizing nonviolent resistance. Israel's iron-fist response — over 1,000 killed, tens of thousands detained, houses demolished, curfews imposed on entire cities — revealed the violence inherent in the occupation to a global audience.",
     "context": {

@@ -1,0 +1,44 @@
+{
+  "id": "2016-mandate-discontents",
+  "year": 2016,
+  "title": "The Mandate & Its Discontents",
+  "agreedFacts": [
+    { "text": "Donald Trump won the 2016 presidential election with 304 electoral votes despite losing the popular vote by approximately 2.9 million", "status": "agreed" },
+    { "text": "Trump's victory was widely unexpected by polls, media, and political establishments of both parties", "status": "agreed" },
+    { "text": "From Inauguration Day, organized resistance movements (#Resist) and institutional investigations (Russia probe) challenged Trump's legitimacy", "status": "agreed" },
+    { "text": "Trump was impeached twice by the House — first for pressuring Ukraine, then for January 6 — and acquitted by the Senate both times", "status": "agreed" },
+    { "text": "Whether institutional resistance to Trump represented democratic accountability or a coordinated effort to nullify an election", "status": "disputed" }
+  ],
+  "bridgeStatement": "Contributors who disagree about whether the 'Resistance' was principled or partisan agree that the four years of Trump's first term established a pattern where neither side accepted the other's exercise of power as legitimate — a dynamic that made January 6 possible.",
+  "causalLink": "This mutual delegitimization traces back to",
+  "sideA": {
+    "title": "The Stress Test",
+    "body": "Trump's presidency was a four-year stress test for American institutions — and the institutions held, barely. From the emoluments clause to the Russia investigation to two impeachments, every check on presidential power was deployed because every check was needed. Trump attacked the independence of the judiciary, the DOJ, the intelligence community, the military, the press, and the electoral system itself. The 'Resistance' was not a conspiracy — it was millions of Americans and thousands of public servants insisting that democratic norms apply to everyone, including the president. The institutional framework that produced accountability — a free press, an independent judiciary, congressional oversight, career public servants — is precisely what prevented the erosion from becoming collapse.",
+    "context": {
+      "text": "The Russia investigation, led by Special Counsel Robert Mueller, documented extensive Russian interference in the 2016 election and multiple instances of potential obstruction of justice — but did not establish criminal conspiracy between the Trump campaign and Russia. The investigation's ambiguous conclusions fueled both sides: institutionalists pointed to documented obstruction, while Trump supporters pointed to the absence of collusion charges."
+    },
+    "sources": "Mueller Report; House impeachment records (both); Inspector General reports; Federal court rulings on executive orders",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "2 populist contributors",
+      "reviewCount": 2,
+      "revisions": 9,
+      "lastUpdated": "1 week ago"
+    }
+  },
+  "sideB": {
+    "title": "The Mandate They Tried to Steal",
+    "body": "From the moment Trump won, the establishment set out to reverse the result. Before he took office, the FBI had opened an investigation into his campaign based on a dossier funded by the Clinton campaign and sourced from Russian intelligence contacts. The incoming national security advisor was ambushed by a process crime. A special counsel was appointed to find a conspiracy that never existed — and after two years and $32 million, found nothing. Trump was impeached over a phone call. His judicial nominees were smeared. His executive orders were blocked by district judges engaging in nationwide injunctions. Media coverage was over 90% negative by independent measurement. None of this was normal democratic accountability. It was a four-year campaign to nullify 63 million votes — and when it failed at the ballot box, the same establishment that spent four years calling Trump illegitimate turned around and demanded his supporters accept the 2020 result without question.",
+    "context": {
+      "text": "The Steele Dossier, initially treated as credible by major media outlets and the FBI, was subsequently discredited. The DOJ Inspector General found the FBI's investigation (Crossfire Hurricane) was opened with adequate predication but identified 17 'significant errors' in FISA warrant applications. The Durham investigation, while producing few convictions, documented a pattern of institutional shortcuts that fueled populist distrust of the intelligence community."
+    },
+    "sources": "DOJ Inspector General FISA report; Durham investigation final report; Steele Dossier sourcing (declassified); Media coverage studies (Harvard Shorenstein Center)",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "3 institutional contributors",
+      "reviewCount": 3,
+      "revisions": 11,
+      "lastUpdated": "6 days ago"
+    }
+  }
+}

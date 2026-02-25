@@ -10,14 +10,14 @@ export default function CommunityComposition({
   meta,
 }: CommunityCompositionProps) {
   const total =
-    meta.israeliContributors +
-    meta.palestinianContributors +
+    meta.sideAContributors +
+    meta.sideBContributors +
     meta.independentReviewers;
-  const israeliPct = Math.round(
-    (meta.israeliContributors / total) * 100
+  const sideAPct = Math.round(
+    (meta.sideAContributors / total) * 100
   );
-  const palestinianPct = Math.round(
-    (meta.palestinianContributors / total) * 100
+  const sideBPct = Math.round(
+    (meta.sideBContributors / total) * 100
   );
 
   return (
@@ -25,12 +25,12 @@ export default function CommunityComposition({
       <div className="mx-auto max-w-4xl text-center">
         <p className="text-sm text-text-secondary">
           Built by{" "}
-          <span className="font-semibold text-israeli-accent">
-            {meta.israeliContributors} {meta.sideA.adjective}
+          <span className="font-semibold text-side-a-accent">
+            {meta.sideAContributors} {meta.sideA.adjective}
           </span>{" "}
           ·{" "}
-          <span className="font-semibold text-palestinian-accent">
-            {meta.palestinianContributors} {meta.sideB.adjective}
+          <span className="font-semibold text-side-b-accent">
+            {meta.sideBContributors} {meta.sideB.adjective}
           </span>{" "}
           contributors ·{" "}
           <span className="font-semibold text-text-primary">
@@ -41,12 +41,12 @@ export default function CommunityComposition({
         {/* Balance bar */}
         <div className="mx-auto mt-3 flex h-2 max-w-md overflow-hidden rounded-full">
           <div
-            className="bg-israeli-accent transition-all"
-            style={{ width: `${israeliPct}%` }}
+            className="bg-side-a-accent transition-all"
+            style={{ width: `${sideAPct}%` }}
           />
           <div
-            className="bg-palestinian-accent transition-all"
-            style={{ width: `${palestinianPct}%` }}
+            className="bg-side-b-accent transition-all"
+            style={{ width: `${sideBPct}%` }}
           />
           <div className="flex-1 bg-text-muted/30" />
         </div>

@@ -19,7 +19,6 @@ function HandshakeIcon() {
       strokeLinecap="round"
       strokeLinejoin="round"
     >
-      {/* Two hands meeting */}
       <path d="M2 14l4-4 3 3 4-4 3 3 4-4" />
       <path d="M6 10l-4 4" />
       <path d="M18 10l4-4" />
@@ -59,7 +58,6 @@ function CrossReviewIcon() {
       strokeLinecap="round"
       strokeLinejoin="round"
     >
-      {/* Two overlapping circles with arrows — cross-review */}
       <circle cx="9" cy="12" r="5" />
       <circle cx="15" cy="12" r="5" />
       <path d="M12 9v6" />
@@ -85,8 +83,8 @@ export default function HowItWorks({ meta }: HowItWorksProps) {
               Built by Both Sides
             </h3>
             <p className="mt-1 text-sm text-text-secondary">
-              {meta.israeliContributors} {meta.sideA.adjective} and{" "}
-              {meta.palestinianContributors} {meta.sideB.adjective} contributors
+              {meta.sideAContributors} {meta.sideA.adjective} and{" "}
+              {meta.sideBContributors} {meta.sideB.adjective} contributors
               wrote and reviewed every word on this page.
             </p>
           </div>
@@ -107,7 +105,7 @@ export default function HowItWorks({ meta }: HowItWorksProps) {
               Cross-Reviewed Narratives
             </h3>
             <p className="mt-1 text-sm text-text-secondary">
-              Every Israeli narrative is reviewed by Palestinian contributors and
+              Every {meta.sideA.adjective} narrative is reviewed by {meta.sideB.adjective} contributors and
               vice versa. Not for agreement — for accuracy.
             </p>
           </div>

@@ -1,0 +1,22 @@
+{
+  "id": "ukraine",
+  "title": "Ukraine / Russia",
+  "subtitle": "Understanding Conflict Through Both Sides",
+  "dateRange": "1991 — Present",
+  "description": "A dual narrative exploring the same events through Ukrainian and Russian perspectives. Not who is right — but why each side believes what it does.",
+  "sideAContributors": 14,
+  "sideBContributors": 11,
+  "independentReviewers": 4,
+  "sideA": {
+    "label": "Ukrainian",
+    "adjective": "Ukrainian"
+  },
+  "sideB": {
+    "label": "Russian",
+    "adjective": "Russian"
+  },
+  "theme": {
+    "sideA": { "bg": "#E8EEF8", "accent": "#1D4ED8", "prov": "#EFF3FA" },
+    "sideB": { "bg": "#F0EEF0", "accent": "#64748B", "prov": "#F5F3F5" }
+  }
+}

@@ -12,7 +12,7 @@
   ],
   "bridgeStatement": "Contributors who disagree about who bears responsibility for the collapse of negotiations agree that Camp David represented the closest the two sides came to a comprehensive deal — and its failure radicalized both populations.",
   "causalLink": "Both sides agree the collapse of this peace effort is tied to",
-  "israeli": {
+  "sideA": {
     "title": "The Offer That Was Refused",
     "body": "Israel came to Camp David prepared to make historic concessions: withdrawal from over 90% of the West Bank, a Palestinian capital in East Jerusalem, shared arrangements for holy sites. Barak took enormous political risk. When Arafat walked away without a counter-offer, Israelis across the political spectrum concluded there was no Palestinian partner for peace. The Second Intifada, with its suicide bombings targeting buses, cafes, and Passover seders, shattered the Israeli peace camp. The left collapsed electorally. The lesson Israelis drew: when we offer peace, we get bombs.",
     "context": {
@@ -27,7 +27,7 @@
       "lastUpdated": "3 days ago"
     }
   },
-  "palestinian": {
+  "sideB": {
     "title": "The Offer That Wasn't",
     "body": "The 'generous offer' narrative distorts what actually happened at Camp David. The proposal kept major settlement blocs, offered non-contiguous Palestinian territory bisected by Israeli-controlled roads, gave Israel sovereignty over Palestinian airspace and borders, and proposed a capital in Abu Dis — a village outside Jerusalem's walls, not Jerusalem itself. Arafat asked for more time and a counter-proposal framework; he did not simply 'walk away.' The Second Intifada erupted from thirty-three years of accumulated occupation, settlement expansion during the 'peace process,' and the deliberate provocation of Sharon's armed visit to the Haram al-Sharif. Blaming Palestinians for the failure let Israel escape accountability for never halting settlements even during negotiations.",
     "context": {

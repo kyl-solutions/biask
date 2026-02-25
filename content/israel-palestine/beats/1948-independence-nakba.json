@@ -13,7 +13,7 @@
   ],
   "bridgeStatement": "Contributors who disagree about whether 1948 was a war of liberation or a catastrophe agree that it produced a refugee population whose unresolved displacement remains the emotional core of the conflict.",
   "causalLink": "Both sides agree the events of 1948 were the direct consequence of",
-  "israeli": {
+  "sideA": {
     "title": "A State Is Born",
     "body": "Three years after the Holocaust, the Jewish people declared sovereignty in their ancestral homeland. The joy lasted hours. Five Arab armies invaded with the declared aim of destroying the newborn state. Israel fought a desperate war of survival with improvised weapons, Holocaust survivors pressed into service, and no guarantee of victory. One percent of the Jewish population — 6,000 people — died in the fighting. The state that emerged was not the product of colonial expansion but of a people with nowhere else to go, defending their right to exist against enemies who rejected the UN partition plan. The tragedy of Palestinian displacement is real, but it occurred in the context of a war that Israel did not start and could not afford to lose.",
     "context": {
@@ -28,7 +28,7 @@
       "lastUpdated": "1 day ago"
     }
   },
-  "palestinian": {
+  "sideB": {
     "title": "The Catastrophe",
     "body": "Palestinians call 1948 the Nakba — the Catastrophe. Over 700,000 people were driven from their homes. More than 400 Palestinian villages were destroyed or depopulated. Massacres like Deir Yassin terrorized communities into flight. This was not collateral damage; Israeli military plans — notably Plan Dalet — included provisions for clearing Palestinian populations from strategic areas. The refugees were never allowed to return, in violation of UN General Assembly Resolution 194. Their homes were given to Jewish immigrants. Their villages were demolished or renamed. An entire society was erased to make room for a new one. The Nakba is not history for Palestinians — it is a living condition. The refugees and their descendants, now numbering over five million, remain stateless.",
     "context": {

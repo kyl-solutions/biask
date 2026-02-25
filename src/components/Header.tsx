@@ -1,53 +1,105 @@
 "use client";
 
+import { useState } from "react";
+import type { ConflictMeta } from "@/lib/types";
+
 interface HeaderProps {
   onReview?: () => void;
   onSubmitConflict?: () => void;
+  conflicts?: Array<{ id: string; meta: ConflictMeta }>;
+  activeConflictId?: string;
+  activePage?: "home" | "about";
 }
 
-export default function Header({ onReview, onSubmitConflict }: HeaderProps) {
+export default function Header({
+  onReview,
+  onSubmitConflict,
+  conflicts,
+  activeConflictId,
+  activePage,
+}: HeaderProps) {
+  const [mobileOpen, setMobileOpen] = useState(false);
+
+  const isOnConflictPage = !!activeConflictId;
+
   return (
     <header className="sticky top-0 z-50 bg-header-bg text-white">
       <div className="mx-auto flex h-14 max-w-7xl items-center justify-between px-6">
-        {/* Wordmark */}
-        <a
-          href="/"
-          className="flex items-baseline gap-0 text-xl tracking-tight"
-        >
-          <span className="font-[--font-body] font-semibold">bi</span>
-          <span className="font-[--font-display] italic">ask</span>
-        </a>
-
-        {/* Navigation + Actions */}
-        <div className="flex items-center gap-2 sm:gap-4">
+        {/* Left: Wordmark + nav links */}
+        <div className="flex items-center gap-1 sm:gap-3">
           <a
-            href="#how-it-works"
-            className="hidden text-sm text-white/70 transition-colors hover:text-white sm:inline"
+            href="/"
+            className={`flex items-baseline gap-0 text-xl tracking-tight ${
+              activePage === "home" ? "text-white" : "text-white/90 hover:text-white"
+            }`}
           >
-            How It Works
+            <span className="font-[--font-body] font-semibold">bi</span>
+            <span className="font-[--font-display] italic">ask</span>
           </a>
 
-          {/* Review This Page — secondary/ghost */}
-          <button
-            onClick={onReview}
-            className="rounded-md border border-white/25 px-3 py-1.5 text-xs font-medium text-white/80 transition-all hover:border-white/50 hover:text-white"
-          >
-            Review This Page
-          </button>
+          {/* Desktop nav */}
+          {conflicts && conflicts.length > 0 && (
+            <nav className="hidden items-center gap-0.5 sm:flex">
+              <span className="mx-2 text-white/20">|</span>
+              {conflicts.map((c) => (
+                <a
+                  key={c.id}
+                  href={`/${c.id}`}
+                  className={`rounded-full px-2.5 py-1 text-xs font-medium transition-colors ${
+                    c.id === activeConflictId
+                      ? "bg-white/20 text-white"
+                      : "text-white/50 hover:bg-white/10 hover:text-white/80"
+                  }`}
+                >
+                  {c.meta.title}
+                </a>
+              ))}
+              <a
+                href="/about"
+                className={`rounded-full px-2.5 py-1 text-xs font-medium transition-colors ${
+                  activePage === "about"
+                    ? "bg-white/20 text-white"
+                    : "text-white/50 hover:bg-white/10 hover:text-white/80"
+                }`}
+              >
+                About
+              </a>
+            </nav>
+          )}
+        </div>
 
-          {/* Submit a Conflict — primary CTA */}
-          <button
-            onClick={onSubmitConflict}
-            className="rounded-md bg-white px-3 py-1.5 text-xs font-semibold text-black transition-all hover:bg-white/90"
-          >
-            + Submit a Conflict
-          </button>
+        {/* Right: Actions */}
+        <div className="flex items-center gap-2 sm:gap-3">
+          {/* Conflict-page-specific actions */}
+          {isOnConflictPage && (
+            <>
+              <a
+                href="#how-it-works"
+                className="hidden text-sm text-white/70 transition-colors hover:text-white lg:inline"
+              >
+                How It Works
+              </a>
+              <button
+                onClick={onReview}
+                className="hidden rounded-md border border-white/25 px-3 py-1.5 text-xs font-medium text-white/80 transition-all hover:border-white/50 hover:text-white sm:inline-flex"
+              >
+                Review This Page
+              </button>
+              <button
+                onClick={onSubmitConflict}
+                className="hidden rounded-md bg-white px-3 py-1.5 text-xs font-semibold text-black transition-all hover:bg-white/90 sm:inline-flex"
+              >
+                + Submit a Conflict
+              </button>
+            </>
+          )}
 
+          {/* GitHub — always visible */}
           <a
             href="https://github.com/kyl-solutions/biask"
             target="_blank"
             rel="noopener noreferrer"
-            className="ml-1 text-white/50 transition-colors hover:text-white"
+            className="text-white/50 transition-colors hover:text-white"
             aria-label="GitHub"
           >
             <svg
@@ -63,8 +115,71 @@ export default function Header({ onReview, onSubmitConflict }: HeaderProps) {
               />
             </svg>
           </a>
+
+          {/* Mobile menu toggle — only on sm */}
+          <button
+            onClick={() => setMobileOpen(!mobileOpen)}
+            className="sm:hidden text-white/70 hover:text-white"
+            aria-label="Menu"
+          >
+            <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              {mobileOpen ? (
+                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+              ) : (
+                <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+              )}
+            </svg>
+          </button>
         </div>
       </div>
+
+      {/* Mobile dropdown */}
+      {mobileOpen && (
+        <nav className="border-t border-white/10 bg-header-bg px-6 pb-4 pt-2 sm:hidden">
+          <div className="flex flex-col gap-1">
+            {conflicts?.map((c) => (
+              <a
+                key={c.id}
+                href={`/${c.id}`}
+                className={`rounded-md px-3 py-2 text-sm font-medium transition-colors ${
+                  c.id === activeConflictId
+                    ? "bg-white/15 text-white"
+                    : "text-white/60 hover:bg-white/10 hover:text-white"
+                }`}
+              >
+                {c.meta.title}
+              </a>
+            ))}
+            <a
+              href="/about"
+              className={`rounded-md px-3 py-2 text-sm font-medium transition-colors ${
+                activePage === "about"
+                  ? "bg-white/15 text-white"
+                  : "text-white/60 hover:bg-white/10 hover:text-white"
+              }`}
+            >
+              What We Believe
+            </a>
+            {isOnConflictPage && (
+              <>
+                <div className="my-1 h-px bg-white/10" />
+                <button
+                  onClick={() => { onReview?.(); setMobileOpen(false); }}
+                  className="rounded-md px-3 py-2 text-left text-sm font-medium text-white/60 transition-colors hover:bg-white/10 hover:text-white"
+                >
+                  Review This Page
+                </button>
+                <button
+                  onClick={() => { onSubmitConflict?.(); setMobileOpen(false); }}
+                  className="rounded-md px-3 py-2 text-left text-sm font-medium text-white/60 transition-colors hover:bg-white/10 hover:text-white"
+                >
+                  + Submit a Conflict
+                </button>
+              </>
+            )}
+          </div>
+        </nav>
+      )}
     </header>
   );
 }

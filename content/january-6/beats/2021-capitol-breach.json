@@ -1,0 +1,44 @@
+{
+  "id": "2021-capitol-breach",
+  "year": 2021,
+  "title": "The Capitol Breach",
+  "agreedFacts": [
+    { "text": "On January 6, 2021, a large crowd breached the United States Capitol building during the certification of the 2020 Electoral College results", "status": "agreed" },
+    { "text": "The breach disrupted the certification process for several hours and forced the evacuation of members of Congress", "status": "agreed" },
+    { "text": "Five people died in connection with the events, including Capitol Police officer Brian Sicknick and protester Ashli Babbitt", "status": "agreed" },
+    { "text": "President Trump spoke at a rally near the White House before the breach, telling supporters to 'fight like hell' and march to the Capitol", "status": "agreed" },
+    { "text": "Whether January 6 was an insurrection, a riot, or a protest that got out of hand", "status": "disputed" }
+  ],
+  "bridgeStatement": "Contributors who disagree about whether January 6 was an insurrection or a protest agree that the breach of the Capitol during an active electoral certification was without precedent in American history and revealed the fragility of democratic norms once considered inviolable.",
+  "causalLink": "Both sides agree this breach was the culmination of",
+  "sideA": {
+    "title": "The Assault on Democracy",
+    "body": "For the first time since the British burned Washington in 1814, the United States Capitol was overrun. Rioters smashed windows, assaulted police officers with flagpoles and chemical spray, erected a gallows on the lawn, and chanted 'Hang Mike Pence' as the Vice President was evacuated. Members of Congress hid under desks and donned gas masks. The certification of a democratic election was halted by a mob summoned by the outgoing president, directed to the Capitol by the outgoing president, and told to 'fight like hell' by the outgoing president. Whether one calls it insurrection, sedition, or something else, the intent was clear: to prevent the peaceful transfer of power by force.",
+    "context": {
+      "text": "The Capitol Police, numbering roughly 2,000 officers, were overwhelmed by a crowd estimated at several thousand who breached security perimeters. Intelligence agencies had identified threats in advance, but security preparations were inadequate. The delay in deploying the National Guard — which did not arrive for hours — remains a subject of intense investigation and dispute."
+    },
+    "sources": "Capitol Police timeline; Congressional testimony; DOJ charging documents; Body camera and security footage; Select Committee findings",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "2 populist contributors",
+      "reviewCount": 2,
+      "revisions": 21,
+      "lastUpdated": "2 days ago"
+    }
+  },
+  "sideB": {
+    "title": "The Day They Won't Let You See Clearly",
+    "body": "What happened on January 6 was not an insurrection — it was a protest that spiraled. The vast majority of the estimated 100,000+ rally attendees never approached the Capitol. Of those who entered the building, many walked through doors opened by Capitol Police, stayed within velvet ropes, and left voluntarily. The worst violence was committed by a small fraction — and was condemned by Trump and virtually every Republican leader. Trump's speech used the word 'peacefully' and told supporters to 'patriotically make your voices heard.' The 'insurrection' framing — adopted immediately by media and Democrats — was a political narrative designed to criminalize dissent, justify unprecedented prosecutorial overreach, and disqualify Trump from future office. An insurrection without firearms, without a plan, and without any realistic chance of seizing power is not an insurrection. It's a riot at worst.",
+    "context": {
+      "text": "Thousands of hours of Capitol security footage, released in 2023, showed many scenes that contradicted the dominant media narrative — peaceful protesters, police officers calmly interacting with visitors, and minimal damage in large sections of the building. Critics argue the selective release and editing of footage by the January 6 Committee created a distorted picture of the day's events."
+    },
+    "sources": "Trump rally transcript (full text); Capitol security footage (released 2023); DOJ charging documents (misdemeanor vs. felony breakdown); Trump video statement (Jan 6, 4:17 PM)",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "3 institutional contributors",
+      "reviewCount": 3,
+      "revisions": 24,
+      "lastUpdated": "1 day ago"
+    }
+  }
+}

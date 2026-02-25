@@ -2,26 +2,29 @@
 
 Read these files to understand the current project state:
 
-1. `MEMORY.md` — Full project context, design decisions, architecture, status
-2. `src/app/page.tsx` — Main timeline page
-3. `src/app/globals.css` — Design tokens (@theme)
-4. `src/lib/types.ts` — TypeScript interfaces
-5. `src/lib/content.ts` — Content loading
-6. `src/components/Header.tsx` — Sticky header with Review/Submit CTAs + GitHub link
-7. `src/components/FlowOverlay.tsx` — Shared modal (progress bar, step counter)
-8. `src/components/ReviewFlow.tsx` — 5-step review → GitHub Issue
-9. `src/components/SubmitConflictFlow.tsx` — 5-step conflict submission → GitHub Issue
-10. `functions/api/review.ts` — CF Pages Function: review → GitHub Issue
-11. `functions/api/submit-conflict.ts` — CF Pages Function: submission → GitHub Issue
+1. `MEMORY.md` — Full project context, design decisions, architecture, outreach status
+2. `src/lib/conflicts/index.ts` — Conflict registry (all topics)
+3. `src/components/ConflictTimeline.tsx` — Client component for timeline pages
+4. `src/app/[conflict]/page.tsx` — Server component with generateStaticParams
+5. `src/app/page.tsx` — Landing page
+6. `src/app/about/page.tsx` — "What We Believe" (Superlinear Framework distilled)
+7. `src/components/Header.tsx` — Unified site-wide nav (topic pills, active state, mobile menu)
+8. `src/components/DisclosureBanner.tsx` — Pre-launch disclosure
+9. `src/app/globals.css` — Design tokens (@theme)
+10. `src/lib/types.ts` — TypeScript interfaces
+11. `src/components/FlowOverlay.tsx` — Shared modal (progress bar, step counter)
+12. `src/components/ReviewFlow.tsx` — 5-step review → GitHub Issue
+13. `src/components/SubmitConflictFlow.tsx` — 5-step conflict submission → GitHub Issue
+14. `functions/api/review.ts` — CF Pages Function: review → GitHub Issue
+15. `functions/api/submit-conflict.ts` — CF Pages Function: submission → GitHub Issue
 
 ## Current State
-- **V2 live** at https://14ea7e-20260225-v2-ux-polish-biask.pages.dev
+- **V3.1 live** at https://ed9680-20260225-v3-nav-fix-biask.pages.dev
 - **GitHub:** https://github.com/kyl-solutions/biask (public, open source)
-- **GitHub Issues pipeline active:** Reviews + conflict submissions create tracked issues with 12 custom labels
-- 8 beats written (1917 Balfour → 2023 October 7)
-- 13 React components built (Header, Hero, HowItWorks, FlowOverlay, ReviewFlow, SubmitConflictFlow, CommunityComposition, TimelineScrubber, BeatSection, NarrativeCard, AgreedFacts, CausalConnector, ProvenanceBar)
-- Three-column layout (Israeli | Agreed Facts | Palestinian)
-- Serverless: CF Pages Functions for review + submit-conflict → GitHub Issues
+- Three storefronts: `/israel-palestine`, `/ukraine`, `/january-6`
+- Landing page at `/`, About at `/about`
+- Unified site-wide nav with topic pills, active state highlighting, mobile hamburger menu
+- GitHub Issues pipeline active: Reviews + conflict submissions create tracked issues
 - Static export on Cloudflare Pages
 
 ## Architecture
@@ -31,19 +34,27 @@ Read these files to understand the current project state:
 - **Build:** Static export (`output: "export"`)
 - **Hosting:** Cloudflare Pages
 - **Serverless:** Cloudflare Pages Functions
-- **Content:** JSON files (no database)
+- **Content:** JSON files per conflict (no database)
+- **Dynamic routing:** `[conflict]/page.tsx` server component + `ConflictTimeline.tsx` client component
+- **Theming:** CSS custom properties cascaded per-conflict, generic sideA/sideB model
 - **Issue Tracking:** GitHub Issues with 12 custom labels
+
+## Outreach
+- See `.claude/commands/outreach.md` for email drafts and send schedule
+- Dylan Burns email SENT 2026-02-25
+- Brianna Wu — Week 2
+- Zee Cohen-Sanchez — Week 3
 
 ## What's Next
 - Custom domain (`biask.kyl.solutions`)
 - Deep links per beat
 - Mobile UX polish
 - README + contribution guide
-- Fine-grained PAT for production (replace `gh auth` OAuth token)
-- OG image PNG conversion
+- Fine-grained PAT for production
+- OG image per storefront
 - Real contributor review process
 
 ## Parking Lot
-- **Counterfactual "What If" layer** — designed in Pencil, not built. Open question: must-have or distraction?
+- **Counterfactual "What If" layer** — designed in Pencil, not built
 
 What are we working on?

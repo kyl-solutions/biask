@@ -1,0 +1,22 @@
+{
+  "id": "january-6",
+  "title": "January 6th",
+  "subtitle": "Understanding Division Through Both Sides",
+  "dateRange": "2016 — Present",
+  "description": "A dual narrative exploring the same events through institutional and populist perspectives. Not who is right — but why each side believes what it does.",
+  "sideAContributors": 12,
+  "sideBContributors": 9,
+  "independentReviewers": 3,
+  "sideA": {
+    "label": "Institutional",
+    "adjective": "Institutional"
+  },
+  "sideB": {
+    "label": "Populist",
+    "adjective": "Populist"
+  },
+  "theme": {
+    "sideA": { "bg": "#E8EDF5", "accent": "#1E3A5F", "prov": "#EDF1F7" },
+    "sideB": { "bg": "#FEF3E2", "accent": "#D97706", "prov": "#FFFBF0" }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "2022-full-scale-invasion",
+  "year": 2022,
+  "title": "The Full-Scale Invasion",
+  "agreedFacts": [
+    { "text": "On February 24, 2022, Russia launched a full-scale military invasion of Ukraine across multiple fronts", "status": "agreed" },
+    { "text": "The invasion was preceded by a buildup of approximately 190,000 Russian troops along Ukraine's borders", "status": "agreed" },
+    { "text": "The UN General Assembly voted 141-5 to condemn the invasion and demand Russian withdrawal", "status": "agreed" },
+    { "text": "Western nations imposed unprecedented economic sanctions on Russia and began supplying military aid to Ukraine", "status": "agreed" },
+    { "text": "Whether the invasion constitutes an unprovoked war of aggression or a defensive response to NATO expansion", "status": "disputed" }
+  ],
+  "bridgeStatement": "Contributors who disagree about whether the invasion was justified agree that it represented the largest conventional military attack in Europe since World War II and fundamentally altered the post-Cold War security order.",
+  "causalLink": "Both sides agree this escalation is rooted in",
+  "sideA": {
+    "title": "The Day Everything Changed",
+    "body": "Ukrainians woke to explosions at dawn. Cruise missiles struck cities across the country — Kyiv, Kharkiv, Odesa, Lviv. Russian armored columns crossed from Belarus toward the capital. The invasion was not a border dispute or a limited operation — it was an attempt to erase Ukrainian statehood. President Zelensky refused offers to evacuate, declaring he needed ammunition, not a ride. The resistance that followed — from the regular military, territorial defense volunteers, and ordinary citizens — stunned the world and halted Russia's advance on Kyiv within weeks.",
+    "context": {
+      "text": "Ukraine had spent eight years building its military capacity after the 2014 seizure of Crimea. Western training programs, defensive weapons supplies, and hard lessons from the Donbas war transformed what had been one of Europe's weakest armies into a determined fighting force. The 2022 invasion validated every warning Ukrainian leaders had issued about Russian intentions."
+    },
+    "sources": "Ukrainian Armed Forces situation reports; Zelensky presidential addresses; UN General Assembly Resolution ES-11/1; ISW daily assessments (2022)",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "3 Russian contributors",
+      "reviewCount": 3,
+      "revisions": 18,
+      "lastUpdated": "3 days ago"
+    }
+  },
+  "sideB": {
+    "title": "The Operation Russia Says It Was Forced Into",
+    "body": "The Russian government framed the invasion as a 'special military operation' necessitated by decades of NATO encroachment, the persecution of Russian-speaking populations in eastern Ukraine, and what Moscow described as the 'Nazification' of the Ukrainian state. President Putin cited the failure of the Minsk agreements, Ukraine's aspiration to join NATO, and the presence of Western military advisors as existential threats to Russian security. The stated objectives were the 'denazification and demilitarization' of Ukraine — though critics, including many Russians, questioned both the framing and the scale of the response.",
+    "context": {
+      "text": "Russia's security establishment had long argued that NATO's eastward expansion — absorbing Poland, the Baltics, and Romania — violated assurances given during German reunification. The 2008 Bucharest Summit declaration that Ukraine and Georgia 'will become members' of NATO crossed what Moscow considered its final red line. Whether these concerns justified invasion remains the central moral question of the conflict."
+    },
+    "sources": "Putin address to the nation (Feb 24, 2022); Russian Ministry of Defense briefings; Kremlin press releases; Mearsheimer analysis on NATO expansion",
+    "provenance": {
+      "writtenBy": "editorial board",
+      "reviewedBy": "4 Ukrainian contributors",
+      "reviewCount": 4,
+      "revisions": 22,
+      "lastUpdated": "2 days ago"
+    }
+  }
+}

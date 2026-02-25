@@ -4,8 +4,8 @@
   "subtitle": "Understanding Conflict Through Both Sides",
   "dateRange": "1917 — Present",
   "description": "A dual narrative exploring the same events through Israeli and Palestinian perspectives. Not who is right — but why each side believes what it does.",
-  "israeliContributors": 247,
-  "palestinianContributors": 231,
+  "sideAContributors": 247,
+  "sideBContributors": 231,
   "independentReviewers": 12,
   "sideA": {
     "label": "Israeli",
@@ -14,5 +14,9 @@
   "sideB": {
     "label": "Palestinian",
     "adjective": "Palestinian"
+  },
+  "theme": {
+    "sideA": { "bg": "#E8EEF5", "accent": "#2563EB", "prov": "#F0F4F8" },
+    "sideB": { "bg": "#F5EBE8", "accent": "#B45309", "prov": "#FAF5F2" }
   }
 }

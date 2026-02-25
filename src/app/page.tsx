@@ -1,123 +1,89 @@
-"use client";
-
-import { useState, useCallback } from "react";
+import { getAllConflicts } from "@/lib/conflicts";
 import Header from "@/components/Header";
-import Hero from "@/components/Hero";
-import HowItWorks from "@/components/HowItWorks";
-import CommunityComposition from "@/components/CommunityComposition";
-import TimelineScrubber from "@/components/TimelineScrubber";
-import BeatSection from "@/components/BeatSection";
-import ReviewFlow from "@/components/ReviewFlow";
-import SubmitConflictFlow from "@/components/SubmitConflictFlow";
-import { beats, conflictMeta } from "@/lib/content";
+import DisclosureBanner from "@/components/DisclosureBanner";
 
-export default function Home() {
-  const [activeBeatIndex, setActiveBeatIndex] = useState(0);
-  const [reviewOpen, setReviewOpen] = useState(false);
-  const [submitOpen, setSubmitOpen] = useState(false);
-
-  const handleBeatChange = useCallback((index: number) => {
-    setActiveBeatIndex(index);
-  }, []);
-
-  const activeBeat = beats[activeBeatIndex];
-  const nextBeat =
-    activeBeatIndex < beats.length - 1 ? beats[activeBeatIndex + 1] : null;
+export default function LandingPage() {
+  const conflicts = getAllConflicts();
 
   return (
     <div className="min-h-screen">
-      <Header
-        onReview={() => setReviewOpen(true)}
-        onSubmitConflict={() => setSubmitOpen(true)}
-      />
-      <HowItWorks meta={conflictMeta} />
-      <Hero meta={conflictMeta} />
-      <CommunityComposition meta={conflictMeta} />
+      <Header conflicts={conflicts} activePage="home" />
+      <DisclosureBanner />
 
-      {/* Timeline */}
-      <div className="bg-page-bg">
-        {/* Column headers */}
-        <div className="mx-auto hidden max-w-7xl grid-cols-[1fr_minmax(340px,400px)_1fr] gap-6 px-6 pt-8 md:grid">
-          <div className="text-center">
-            <p className="text-xs font-bold uppercase tracking-widest text-israeli-accent">
-              {conflictMeta.sideA.adjective} Narrative
-            </p>
-          </div>
-          <div className="text-center">
-            <p className="text-xs font-bold uppercase tracking-widest text-agreed">
-              Agreed Facts
-            </p>
-          </div>
-          <div className="text-center">
-            <p className="text-xs font-bold uppercase tracking-widest text-palestinian-accent">
-              {conflictMeta.sideB.adjective} Narrative
-            </p>
-          </div>
+      {/* Hero */}
+      <section className="border-b border-border-light bg-surface px-6 py-20">
+        <div className="mx-auto max-w-3xl text-center">
+          <h1 className="font-[--font-display] text-4xl italic leading-tight text-text-primary sm:text-5xl">
+            Interrogate your bias.
+          </h1>
+          <p className="mx-auto mt-4 max-w-xl text-lg leading-relaxed text-text-secondary">
+            Structured disagreement on the issues that divide us. Not who is
+            right — why each side believes what it does.
+          </p>
+          <p className="mt-2 text-sm text-text-muted">
+            Every narrative is written by one side and reviewed by the other.
+          </p>
         </div>
+      </section>
 
-        {/* Scrubber */}
-        <div className="sticky top-14 z-40 border-b border-border-light bg-page-bg/95 backdrop-blur-sm">
-          <TimelineScrubber
-            beats={beats}
-            activeBeatIndex={activeBeatIndex}
-            onBeatChange={handleBeatChange}
-          />
-        </div>
-
-        {/* Active beat */}
-        <div className="mx-auto max-w-7xl px-6 py-8">
-          <BeatSection
-            beat={activeBeat}
-            meta={conflictMeta}
-            index={activeBeatIndex}
-            causalLink={activeBeat.causalLink}
-            nextBeatYear={nextBeat?.year?.toString()}
-            nextBeatTitle={nextBeat?.title}
-            onNavigateNext={
-              nextBeat
-                ? () => handleBeatChange(activeBeatIndex + 1)
-                : undefined
-            }
-          />
-
-          {/* End state - deepest beat */}
-          {!nextBeat && (
-            <div className="mx-auto mt-8 max-w-md text-center">
-              <div className="h-px w-full bg-border-light" />
-              <p className="mt-6 font-[--font-display] text-xl italic text-text-secondary">
-                You&rsquo;ve reached the beginning.
-              </p>
-              <p className="mt-2 text-sm text-text-muted">
-                Every event on this timeline traces back to competing
-                promises made over the same land. The question is not who
-                started it — but whether understanding both sides can help
-                end it.
-              </p>
-              <button
-                onClick={() => handleBeatChange(0)}
-                className="mt-4 text-sm font-medium text-text-primary underline decoration-text-muted underline-offset-4 transition-colors hover:decoration-text-primary"
+      {/* Conflict cards */}
+      <section className="px-6 py-16">
+        <div className="mx-auto max-w-4xl">
+          <p className="text-center text-xs font-semibold uppercase tracking-widest text-text-muted">
+            Explore
+          </p>
+          <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {conflicts.map((c) => (
+              <a
+                key={c.id}
+                href={`/${c.id}`}
+                className="group relative overflow-hidden rounded-xl border border-border-light bg-surface p-6 transition-all hover:border-border-light/80 hover:shadow-md"
               >
-                Return to the present →
-              </button>
-            </div>
-          )}
+                {/* Accent stripe */}
+                <div
+                  className="absolute inset-x-0 top-0 h-1"
+                  style={{
+                    background: `linear-gradient(to right, ${c.meta.theme.sideA.accent}, ${c.meta.theme.sideB.accent})`,
+                  }}
+                />
+                <h2 className="mt-1 font-[--font-display] text-xl italic text-text-primary">
+                  {c.meta.title}
+                </h2>
+                <p className="mt-1 text-xs font-medium text-text-muted">
+                  {c.meta.dateRange}
+                </p>
+                <p className="mt-3 text-sm leading-relaxed text-text-secondary">
+                  {c.meta.description}
+                </p>
+                <div className="mt-4 flex items-center justify-between">
+                  <span className="text-xs text-text-muted">
+                    {c.meta.sideAContributors + c.meta.sideBContributors}{" "}
+                    contributors
+                  </span>
+                  <span className="text-xs font-medium text-text-primary opacity-0 transition-opacity group-hover:opacity-100">
+                    Explore →
+                  </span>
+                </div>
+              </a>
+            ))}
+          </div>
         </div>
-      </div>
+      </section>
 
       {/* Footer */}
       <footer className="border-t border-border-light bg-surface px-6 py-8">
         <div className="mx-auto max-w-4xl text-center">
-          <p className="flex items-baseline justify-center gap-0 text-lg">
+          <a href="/" className="inline-flex items-baseline gap-0 text-lg">
             <span className="font-[--font-body] font-semibold text-text-primary">
               bi
             </span>
             <span className="font-[--font-display] italic text-text-primary">
               ask
             </span>
-          </p>
+          </a>
           <p className="mt-2 text-xs text-text-muted">
-            Open source · Built by contributors who disagree · Not who is
-            right — why each side believes what it does
+            Open source · Built by contributors who disagree · Infrastructure
+            for structured disagreement
           </p>
           <div className="mt-4 flex items-center justify-center gap-4 text-xs text-text-muted">
             <a
@@ -129,26 +95,15 @@ export default function Home() {
               Contribute on GitHub
             </a>
             <span>·</span>
-            <span>
-              {conflictMeta.israeliContributors +
-                conflictMeta.palestinianContributors}{" "}
-              contributors
-            </span>
+            <a
+              href="/about"
+              className="underline underline-offset-2 hover:text-text-secondary"
+            >
+              What We Believe
+            </a>
           </div>
         </div>
       </footer>
-
-      {/* Flow overlays */}
-      <ReviewFlow
-        open={reviewOpen}
-        onClose={() => setReviewOpen(false)}
-        beat={activeBeat}
-        meta={conflictMeta}
-      />
-      <SubmitConflictFlow
-        open={submitOpen}
-        onClose={() => setSubmitOpen(false)}
-      />
     </div>
   );
 }

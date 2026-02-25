@@ -11,7 +11,7 @@
   ],
   "bridgeStatement": "Contributors who disagree about whether October 7 was resistance or terrorism agree that the attack represented an unprecedented escalation that shattered assumptions on all sides.",
   "causalLink": "Both sides agree this escalation is rooted in",
-  "israeli": {
+  "sideA": {
     "title": "The Darkest Day",
     "body": "October 7 was the deadliest day for Jewish people since the Holocaust. Hamas militants crossed the border at dawn, attacking kibbutzim, a music festival, and military bases. The scale and nature of the violence — families murdered in their homes, hostages dragged into tunnels — shattered Israel's sense of security. The national trauma was existential: the state built to protect Jews had failed at its most fundamental promise.",
     "context": {
@@ -26,7 +26,7 @@
       "lastUpdated": "2 days ago"
     }
   },
-  "palestinian": {
+  "sideB": {
     "title": "The Breaking Point",
     "body": "For Palestinians, October 7 did not emerge from a vacuum. Seventeen years of blockade had turned Gaza into what the UN called an 'open-air prison.' Two million people lived under severe restrictions on movement, trade, and basic necessities. The attack was the eruption of a pressure that had been building for decades — though the methods and targeting of civilians drew condemnation even from Palestinian allies. The Israeli military response devastated Gaza's infrastructure, displaced most of its population, and killed tens of thousands.",
     "context": {
