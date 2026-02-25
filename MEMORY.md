@@ -1,7 +1,8 @@
 # biask - Project Memory
 
 **Created:** 2026-02-25
-**Status:** V1 Built & Deployed
+**Status:** V2 Live — GitHub Issues pipeline active
+**GitHub:** https://github.com/kyl-solutions/biask
 **Codename:** biask (formerly dual-narrative)
 **Name treatment:** bi*ask* — "bi" in Inter (structural), "*ask*" in Instrument Serif italic (inquiry). Lowercase b always.
 **Name meaning:** bias + ask (interrogate your bias), bi (bidirectional, bilateral), ask (Socratic — the product asks, doesn't tell)
@@ -29,6 +30,8 @@
 - **Build:** Static export (`output: "export"`)
 - **Hosting:** Cloudflare Pages
 - **Content:** JSON files (no database, contributor-friendly)
+- **Serverless:** Cloudflare Pages Functions (review + submit → GitHub Issues)
+- **Issue Tracking:** GitHub Issues with 12 custom labels (stance, basis, perspective, submission)
 
 ### File Structure
 ```
@@ -66,6 +69,10 @@ content/
       1967-six-day-war.json
       1948-independence-nakba.json
       1917-balfour-declaration.json
+functions/
+  api/
+    review.ts           — CF Pages Function: review → GitHub Issue
+    submit-conflict.ts  — CF Pages Function: conflict submission → GitHub Issue
 scripts/
   generate-og.ts        — SVG OG image generator
 public/
@@ -165,14 +172,23 @@ public/
 
 ## Known Issues / Next Steps
 
-- **Custom domain:** Need to set `ab83e0-20260225-demo.biask.kyl.solutions` via CF dashboard
+### Done ✅
+- ~~Open source: GitHub repo~~ → https://github.com/kyl-solutions/biask
+- ~~Contribution flows~~ → ReviewFlow + SubmitConflictFlow → GitHub Issues pipeline live
+- ~~Header CTAs~~ → "Review This Page" + "+ Submit a Conflict" wired to flows
+
+### Active
+- **Custom domain:** Need to set `biask.kyl.solutions` via CF dashboard
 - **OG image:** Currently SVG — some social platforms may need PNG conversion
-- **Mobile responsive:** Three-column layout stacks to single column on mobile (center → Israeli → Palestinian). Could polish the mobile experience.
-- **Keyboard nav:** Arrow keys work for scrubber. Consider adding touch swipe gestures.
+- **Mobile responsive:** Three-column layout stacks to single column on mobile. Could polish.
 - **Deep links:** Each beat should be a shareable URL (e.g., `/beat/1948-independence-nakba`)
-- **Counterfactual layer:** Designed in Pencil but not yet built in code
-- **Open source:** Need to set up GitHub repo, README, contribution guide
-- **Content review:** All beat content is editorial-board-written placeholder — real version needs actual contributor review process
+- **README + contribution guide:** Repo exists but no README yet
+- **Content review:** All beat content is editorial-board-written — real version needs actual contributor process
+- **GitHub token:** Currently using `gh auth` OAuth token as CF secret. Should create a fine-grained PAT scoped to `biask` repo Issues-only for production.
+
+### Parking Lot (Features on the Cutting Room Floor)
+- **Counterfactual "What If" layer:** Designed in Pencil but not yet built. Concept: at each beat, show an emulated alternative — "What if Camp David had succeeded?" — grounded in real-world understanding of the forces at play. Not fan fiction, but disciplined counterfactual reasoning that reveals how fragile/contingent each outcome was. **Open question: is this a must-have or a distraction from the core dual-narrative mission?** Design principle #10 ("Counterfactuals are humbling — history wasn't inevitable") argues for it. But it adds editorial complexity (now THREE perspectives per beat) and could undermine the trust architecture if speculative claims aren't held to the same cross-review standard.
+- **Keyboard nav:** Arrow keys work for scrubber. Touch swipe gestures for mobile.
 
 ---
 
@@ -202,6 +218,19 @@ public/
 - **Built SubmitConflictFlow.tsx:** 5-step conflict submission — (1) conflict name + region + parties, (2) "What do most people get wrong?" (the biask hook), (3) key turning points (seeds beat structure), (4) sources from both sides, (5) contributor perspective + willingness. Stores to localStorage as `biask-conflict-submissions`.
 - **Key insight:** These flows ARE the product. They're Socratic prompt packs that teach contributors how to think about conflict. The output becomes either a revision brief (Review) or a conflict seed brief (Submit).
 - **Deployed V2:** https://14ea7e-20260225-v2-ux-polish-biask.pages.dev
+
+### 2026-02-25 (Session 4 - GitHub Issues Pipeline)
+- **Git init + GitHub repo:** Created `kyl-solutions/biask` (public), initial commit with all 41 files
+- **CF Pages Functions:** Built two serverless endpoints:
+  - `POST /api/review` → creates GitHub Issue with stance/basis/source labels
+  - `POST /api/submit-conflict` → creates GitHub Issue with editorial checklist
+- **12 custom labels:** review:agree/disagree/nuance, basis:academic/journalistic/firsthand/institutional, perspective:side-a/side-b/both/outside, conflict-submission
+- **Client-side wiring:** Both flows now call API first, fall back to localStorage. Success screen shows direct issue link.
+- **Token:** `GITHUB_TOKEN` set as CF Pages secret (via `wrangler pages secret put`)
+- **API version fix:** GitHub API needs `2022-11-28`, not `2025-01-01`
+- **Tested E2E:** Review → Issue #3, Conflict → Issue #4 (both created successfully, closed as test)
+- **All docs updated:** MEMORY.md, session loaders, CLAUDE.md repo mapping, Obsidian mirror
+- **Parking lot:** Documented counterfactual "What If" feature as open question — must-have vs. distraction
 
 ---
 

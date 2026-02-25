@@ -1,21 +1,22 @@
-# Dual Narrative - Session Loader
+# Dual Narrative → biask — Session Loader
 
-## What is this?
-A philanthropic project to build a wiki-like resource that tells conflict stories from both sides simultaneously. Not false balance, not advocacy - honest multiplicity.
+> **Note:** This project was renamed from "dual-narrative" to **biask** (bias + ask).
+> The canonical session loader is `/biask`. This file exists for backward compatibility.
 
-## Test Case
-Israel/Palestine - chosen as the hardest possible test. If the design works here, it works anywhere.
+## Quick Context
+- **Codename:** biask (formerly dual-narrative)
+- **Repo:** https://github.com/kyl-solutions/biask
+- **Live (V2):** https://14ea7e-20260225-v2-ux-polish-biask.pages.dev
+- **Status:** V2 Live — GitHub Issues pipeline active
 
 ## Read First
-1. `MEMORY.md` - Full project context, open questions, design principles
-2. `designs/` - Pencil files for UI/UX
-3. `docs/` - Any architectural specs or content structure docs
+1. `MEMORY.md` — Full project context, design decisions, architecture, all session history
+2. `.claude/commands/biask.md` — Detailed session loader with file list
 
-## Current Status
-Early conceptual/design phase. Working through:
-- Core timeline UI/UX
-- Expand/collapse mechanics
-- Counterfactual layer design
-- Sourcing and credibility framework
+## What is this?
+A platform that tells conflict stories from both sides simultaneously. Not false balance, not advocacy — honest multiplicity. The reader should come away understanding WHY each side made the choices they did.
+
+## Test Case
+Israel/Palestine — 8 beats from 1917 Balfour Declaration to 2023 October 7.
 
 ## What are we working on?
