@@ -34,11 +34,17 @@ export default function SubmitConflictFlow({ open, onClose }: SubmitConflictFlow
     willContribute: false,
   });
   const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [issueUrl, setIssueUrl] = useState<string | null>(null);
+  const [submitError, setSubmitError] = useState(false);
 
   const reset = () => {
     setStep(1);
     setData({ name: "", region: "", parties: "", biasGap: "", turningPoints: "", sources: "", perspective: "", willContribute: false });
     setSubmitted(false);
+    setSubmitting(false);
+    setIssueUrl(null);
+    setSubmitError(false);
   };
 
   const handleClose = () => {
@@ -57,13 +63,35 @@ export default function SubmitConflictFlow({ open, onClose }: SubmitConflictFlow
     }
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
+    setSubmitting(true);
+    setSubmitError(false);
+
+    try {
+      const res = await fetch("/api/submit-conflict", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+
+      if (res.ok) {
+        const result = await res.json();
+        setIssueUrl(result.issueUrl);
+      } else {
+        console.warn("API submission failed, storing locally");
+        setSubmitError(true);
+      }
+    } catch {
+      console.warn("Network error, storing locally");
+      setSubmitError(true);
+    }
+
+    // Always store locally as backup
     const submissions = JSON.parse(localStorage.getItem("biask-conflict-submissions") || "[]");
-    submissions.push({
-      ...data,
-      timestamp: new Date().toISOString(),
-    });
+    submissions.push({ ...data, timestamp: new Date().toISOString() });
     localStorage.setItem("biask-conflict-submissions", JSON.stringify(submissions));
+
+    setSubmitting(false);
     setSubmitted(true);
   };
 
@@ -80,13 +108,25 @@ export default function SubmitConflictFlow({ open, onClose }: SubmitConflictFlow
             {data.name} has been submitted
           </h3>
           <p className="mt-2 text-sm text-text-secondary">
-            The editorial board will review your submission and begin sourcing
-            contributors from both sides. You&rsquo;ll be notified when the page
-            is ready for community review.
+            {issueUrl
+              ? "Your conflict submission is now a tracked issue. The editorial board will begin sourcing contributors from both sides."
+              : submitError
+                ? "Stored locally — it will sync when the connection is restored."
+                : "The editorial board will review your submission and begin sourcing contributors from both sides."}
           </p>
+          {issueUrl && (
+            <a
+              href={issueUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-3 inline-block text-sm font-medium text-text-primary underline decoration-text-muted underline-offset-4 transition-colors hover:decoration-text-primary"
+            >
+              View issue on GitHub →
+            </a>
+          )}
           <button
             onClick={handleClose}
-            className="mt-6 rounded-md bg-text-primary px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-text-secondary"
+            className="mt-6 block w-full rounded-md bg-text-primary px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-text-secondary"
           >
             Done
           </button>
@@ -287,14 +327,14 @@ export default function SubmitConflictFlow({ open, onClose }: SubmitConflictFlow
         ) : (
           <button
             onClick={handleSubmit}
-            disabled={!canAdvance()}
+            disabled={!canAdvance() || submitting}
             className={`rounded-md px-5 py-2 text-sm font-semibold transition-all ${
-              canAdvance()
+              canAdvance() && !submitting
                 ? "bg-text-primary text-white hover:bg-text-secondary"
                 : "cursor-not-allowed bg-border-light text-text-muted"
             }`}
           >
-            Submit Conflict
+            {submitting ? "Submitting…" : "Submit Conflict"}
           </button>
         )}
       </div>

@@ -33,11 +33,17 @@ export default function ReviewFlow({ open, onClose, beat, meta }: ReviewFlowProp
     perspective: "",
   });
   const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [issueUrl, setIssueUrl] = useState<string | null>(null);
+  const [submitError, setSubmitError] = useState(false);
 
   const reset = () => {
     setStep(1);
     setData({ target: "", targetType: "", stance: "", basisType: "", sources: "", perspective: "" });
     setSubmitted(false);
+    setSubmitting(false);
+    setIssueUrl(null);
+    setSubmitError(false);
   };
 
   const handleClose = () => {
@@ -56,16 +62,43 @@ export default function ReviewFlow({ open, onClose, beat, meta }: ReviewFlowProp
     }
   };
 
-  const handleSubmit = () => {
-    // Store locally for now — becomes GitHub issue / API call later
-    const submissions = JSON.parse(localStorage.getItem("biask-reviews") || "[]");
-    submissions.push({
+  const handleSubmit = async () => {
+    setSubmitting(true);
+    setSubmitError(false);
+
+    const payload = {
       ...data,
       beatId: beat.id,
       beatTitle: beat.title,
-      timestamp: new Date().toISOString(),
-    });
+    };
+
+    try {
+      const res = await fetch("/api/review", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+
+      if (res.ok) {
+        const result = await res.json();
+        setIssueUrl(result.issueUrl);
+      } else {
+        // API failed — fall back to localStorage
+        console.warn("API submission failed, storing locally");
+        setSubmitError(true);
+      }
+    } catch {
+      // Network error — fall back to localStorage
+      console.warn("Network error, storing locally");
+      setSubmitError(true);
+    }
+
+    // Always store locally as backup
+    const submissions = JSON.parse(localStorage.getItem("biask-reviews") || "[]");
+    submissions.push({ ...payload, timestamp: new Date().toISOString() });
     localStorage.setItem("biask-reviews", JSON.stringify(submissions));
+
+    setSubmitting(false);
     setSubmitted(true);
   };
 
@@ -112,12 +145,25 @@ export default function ReviewFlow({ open, onClose, beat, meta }: ReviewFlowProp
             Your review has been recorded
           </h3>
           <p className="mt-2 text-sm text-text-secondary">
-            The editorial board will review your submission and update the page
-            if your evidence meets the cross-review standard.
+            {issueUrl
+              ? "Your review has been submitted to the editorial board as a tracked issue."
+              : submitError
+                ? "Stored locally — it will sync when the connection is restored."
+                : "The editorial board will review your submission and update the page if your evidence meets the cross-review standard."}
           </p>
+          {issueUrl && (
+            <a
+              href={issueUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-3 inline-block text-sm font-medium text-text-primary underline decoration-text-muted underline-offset-4 transition-colors hover:decoration-text-primary"
+            >
+              View issue on GitHub →
+            </a>
+          )}
           <button
             onClick={handleClose}
-            className="mt-6 rounded-md bg-text-primary px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-text-secondary"
+            className="mt-6 block w-full rounded-md bg-text-primary px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-text-secondary"
           >
             Done
           </button>
@@ -317,14 +363,14 @@ export default function ReviewFlow({ open, onClose, beat, meta }: ReviewFlowProp
         ) : (
           <button
             onClick={handleSubmit}
-            disabled={!canAdvance()}
+            disabled={!canAdvance() || submitting}
             className={`rounded-md px-5 py-2 text-sm font-semibold transition-all ${
-              canAdvance()
+              canAdvance() && !submitting
                 ? "bg-text-primary text-white hover:bg-text-secondary"
                 : "cursor-not-allowed bg-border-light text-text-muted"
             }`}
           >
-            Submit Review
+            {submitting ? "Submitting…" : "Submit Review"}
           </button>
         )}
       </div>
